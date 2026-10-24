@@ -1,0 +1,8 @@
+{
+ "cfg": "hr_p2_832_s0",
+ "run": "hr_p2_832_s0",
+ "imgsz": 832,
+ "detect_idx": 29,
+ "params": 9561720,
+ "torch": "2.13.0+cu132"
+}

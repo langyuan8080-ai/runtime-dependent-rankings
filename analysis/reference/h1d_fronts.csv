@@ -1,0 +1,34 @@
+batch,runtime,size,entered,left,front
+1,compile_default,1,,,base1120
+1,compile_ro,5,base1024 base640 base960 base960b16 p2_640,base1120,base1024 base640 base960 base960b16 p2_640
+1,eager,1,,,base1120
+1,eager_graph,7,Bg4 base1024 base640 base960 base960b16 p2_640 seg4,base1120,Bg4 base1024 base640 base960 base960b16 p2_640 seg4
+1,ort_iobinding,5,Bg4 base1024 base640 base960 base960b16,base1120,Bg4 base1024 base640 base960 base960b16
+1,ort_with_copies,7,Bg4 Bplain base1024 base640 base960 base960b16 seg4,base1120,Bg4 Bplain base1024 base640 base960 base960b16 seg4
+1,trt_fp16_graph,5,base1024 base640 base960 base960b16 p2_640,base1120,base1024 base640 base960 base960b16 p2_640
+1,trt_fp16_nograph,2,base1024 base640,base1120,base1024 base640
+1,trt_fp32_graph,7,Bg4 afterA base1024 base640 base960 base960b16 p2_640,base1120,Bg4 afterA base1024 base640 base960 base960b16 p2_640
+1,trt_int8a_graph,4,base1024 base640 base960 base960b16,base1120,base1024 base640 base960 base960b16
+1,trt_int8b_graph,3,base1024 base640 base960b16,base1120,base1024 base640 base960b16
+8,compile_default,6,Bg4 Bplain base640 base960 base960b16 p2_640,base1120,Bg4 Bplain base640 base960 base960b16 p2_640
+8,compile_ro,6,Bg4 Bplain base640 base960 base960b16 p2_640,base1120,Bg4 Bplain base640 base960 base960b16 p2_640
+8,eager,6,Bplain afterA base640 base960 base960b16 p2_640,base1120,Bplain afterA base640 base960 base960b16 p2_640
+8,eager_graph,6,Bplain afterA base640 base960 base960b16 p2_640,base1120,Bplain afterA base640 base960 base960b16 p2_640
+8,ort_iobinding,6,Bplain afterA base640 base960 base960b16 p2_640,base1120,Bplain afterA base640 base960 base960b16 p2_640
+8,ort_with_copies,4,Bplain afterA base640 p2_640,base1120,Bplain afterA base640 p2_640
+8,trt_fp16_graph,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+8,trt_fp16_nograph,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+8,trt_fp32_graph,7,Bg4 Bplain afterA base640 base960 base960b16 p2_640,base1120,Bg4 Bplain afterA base640 base960 base960b16 p2_640
+8,trt_int8a_graph,3,Bplain base640 p2_640,base1120,Bplain base640 p2_640
+8,trt_int8b_graph,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,compile_default,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,compile_ro,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,eager,6,Bg4 Bplain base640 base960 base960b16 p2_640,base1120,Bg4 Bplain base640 base960 base960b16 p2_640
+32,eager_graph,6,Bg4 Bplain base640 base960 base960b16 p2_640,base1120,Bg4 Bplain base640 base960 base960b16 p2_640
+32,ort_iobinding,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,ort_with_copies,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,trt_fp16_graph,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,trt_fp16_nograph,4,Bg4 Bplain base640 p2_640,base1120,Bg4 Bplain base640 p2_640
+32,trt_fp32_graph,6,Bg4 Bplain base640 base960 base960b16 p2_640,base1120,Bg4 Bplain base640 base960 base960b16 p2_640
+32,trt_int8a_graph,2,base640 p2_640,base1120,base640 p2_640
+32,trt_int8b_graph,3,Bg4 base640 p2_640,base1120,Bg4 base640 p2_640

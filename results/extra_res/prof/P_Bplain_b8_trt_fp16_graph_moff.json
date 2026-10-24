@@ -1,0 +1,6 @@
+{
+ "cid": "Bplain",
+ "batch": 8,
+ "runtime": "trt_fp16_graph",
+ "status": "ok"
+}

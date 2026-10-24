@@ -1,0 +1,8 @@
+{
+ "cfg": "sci_c1pos_s3",
+ "run": "sci_c1pos_s3",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 9979769,
+ "torch": "2.13.0+cu132"
+}

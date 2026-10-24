@@ -1,0 +1,23 @@
+{
+ "layer": "appendix + INT8 inspection",
+ "i_cfgs": [
+  "afterA",
+  "Bnarrow",
+  "Awide",
+  "c1pos"
+ ],
+ "a_cfgs": [
+  "base640",
+  "c1pos",
+  "y26s"
+ ],
+ "threads": 14,
+ "cpu_passes": [
+  10,
+  100
+ ],
+ "full_dir": "/workspace/paper2_core/full",
+ "created": "2026-10-24 01:54:34",
+ "gpu": "NVIDIA GeForce RTX 4090, GPU-62d514b9-f7d8-80f0-be1d-3e6033366b90, 610.57.04",
+ "cpu": "AMD EPYC 7542 32-Core Processor"
+}

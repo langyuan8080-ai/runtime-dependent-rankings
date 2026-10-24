@@ -1,0 +1,6 @@
+{
+ "cid": "base1024",
+ "batch": 32,
+ "runtime": "trt_fp32_graph",
+ "status": "ok"
+}

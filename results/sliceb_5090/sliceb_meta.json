@@ -1,0 +1,38 @@
+{
+ "layer": "Slice B",
+ "configs": [
+  "base640",
+  "p2_640",
+  "c1pos",
+  "Bplain",
+  "y11m",
+  "p2_832",
+  "base960",
+  "p2_960",
+  "base1120",
+  "y11l"
+ ],
+ "prereg": [
+  "base640",
+  "p2_640",
+  "c1pos",
+  "Bplain",
+  "y11m",
+  "p2_832",
+  "base960",
+  "p2_960",
+  "base1120"
+ ],
+ "exploratory": [
+  "y11l"
+ ],
+ "batches": [
+  1,
+  8
+ ],
+ "builds": 3,
+ "threads": 14,
+ "created": "2026-10-23 10:25:13",
+ "gpu": "NVIDIA GeForce RTX 5090, GPU-477df383-29e1-5a5c-fe8c-159c8b88c9fb, 595.80",
+ "cpu": "INTEL(R) XEON(R) GOLD 6530"
+}

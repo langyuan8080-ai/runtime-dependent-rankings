@@ -1,0 +1,6 @@
+{
+ "cid": "c1bn",
+ "batch": 1,
+ "runtime": "trt_fp32_graph",
+ "status": "ok"
+}

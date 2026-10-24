@@ -1,0 +1,6 @@
+{
+ "cid": "A_c1pos_s960",
+ "batch": 8,
+ "runtime": "trt_fp16_graph",
+ "status": "ok"
+}

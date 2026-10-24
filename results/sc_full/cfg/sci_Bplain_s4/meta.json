@@ -1,0 +1,8 @@
+{
+ "cfg": "sci_Bplain_s4",
+ "run": "sci_Bplain_s4",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 10151800,
+ "torch": "2.13.0+cu132"
+}

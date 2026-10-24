@@ -1,0 +1,6 @@
+{
+ "cid": "base960",
+ "batch": 8,
+ "runtime": "ort_with_copies",
+ "status": "ok"
+}

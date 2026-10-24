@@ -1,0 +1,6 @@
+{
+ "cid": "p2_832",
+ "batch": 1,
+ "runtime": "ort_with_copies",
+ "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+ "configs": [
+  "Awide",
+  "Bnarrow",
+  "afterA",
+  "base640",
+  "c1pos",
+  "y26s"
+ ],
+ "builds": 3,
+ "created": "2026-10-24 01:54:34",
+ "seed": 20261016,
+ "share_ab": true,
+ "smoke": false
+}

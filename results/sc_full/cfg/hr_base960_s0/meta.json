@@ -1,0 +1,8 @@
+{
+ "cfg": "hr_base960_s0",
+ "run": "hr_base960_s0",
+ "imgsz": 960,
+ "detect_idx": 23,
+ "params": 9416670,
+ "torch": "2.13.0+cu132"
+}

@@ -1,0 +1,8 @@
+{
+ "cfg": "hr_base1120_s3",
+ "run": "hr_base1120_s3",
+ "imgsz": 1120,
+ "detect_idx": 23,
+ "params": 9416670,
+ "torch": "2.13.0+cu132"
+}

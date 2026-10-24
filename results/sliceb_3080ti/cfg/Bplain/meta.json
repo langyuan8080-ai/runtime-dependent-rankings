@@ -1,0 +1,9 @@
+{
+ "cfg": "Bplain",
+ "run": "stage7_Bplain_s0",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 10151800,
+ "torch": "2.13.0+cu132",
+ "exploratory": false
+}

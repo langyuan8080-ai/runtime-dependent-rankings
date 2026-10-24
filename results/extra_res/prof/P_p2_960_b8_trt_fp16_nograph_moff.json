@@ -1,0 +1,6 @@
+{
+ "cid": "p2_960",
+ "batch": 8,
+ "runtime": "trt_fp16_nograph",
+ "status": "ok"
+}

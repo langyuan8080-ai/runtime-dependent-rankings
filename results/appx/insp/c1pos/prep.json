@@ -1,0 +1,214 @@
+{
+ "fp32_md5_match_core": {
+  "fp32_b1": true,
+  "fp32_b8": true
+ },
+ "int8a": {
+  "constants": 13,
+  "vs_b1": {
+   "median": 0.0,
+   "p99": 0.005485893227159977,
+   "max": 0.0489811897277832,
+   "frac_gt_1e-3": 0.09196113445378151
+  }
+ },
+ "int8b": {
+  "constants": 13,
+  "vs_b1": {
+   "median": 0.0,
+   "p99": 0.004702194128185511,
+   "max": 0.03918495401740074,
+   "frac_gt_1e-3": 0.07988235294117647
+  }
+ },
+ "onnx_quantized_convs": {
+  "int8a": {
+   "0": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "1": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "2": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "3": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "4": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "5": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "6": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "7": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "8": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "9": {
+    "quantized": 2,
+    "conv": 2
+   },
+   "10": {
+    "quantized": 7,
+    "conv": 7
+   },
+   "13": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "16": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "19": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "20": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "21": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "23": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "24": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "26": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "27": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "29": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "30": {
+    "quantized": 33,
+    "conv": 33
+   },
+   "total": {
+    "quantized": 114,
+    "conv": 114
+   }
+  },
+  "int8b": {
+   "0": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "1": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "2": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "3": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "4": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "5": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "6": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "7": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "8": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "9": {
+    "quantized": 2,
+    "conv": 2
+   },
+   "10": {
+    "quantized": 7,
+    "conv": 7
+   },
+   "13": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "16": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "19": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "20": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "21": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "23": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "24": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "26": {
+    "quantized": 4,
+    "conv": 4
+   },
+   "27": {
+    "quantized": 1,
+    "conv": 1
+   },
+   "29": {
+    "quantized": 9,
+    "conv": 9
+   },
+   "30": {
+    "quantized": 0,
+    "conv": 33
+   },
+   "total": {
+    "quantized": 81,
+    "conv": 114
+   }
+  }
+ }
+}

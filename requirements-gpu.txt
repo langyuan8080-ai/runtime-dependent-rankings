@@ -1,0 +1,12 @@
+# measurement environment on the GPU servers (Python 3.12.11); see README section 3
+torch==2.13.0          # CUDA 13.2 build
+ultralytics==8.4.143   # patched with the modules of the companion repository
+onnx==1.23.2
+onnxruntime-gpu==1.31.0
+tensorrt==11.4.0.106
+pycocotools
+numpy
+pandas
+# separate virtual environment (QV_PY): TensorRT Model Optimizer
+# nvidia-modelopt==0.47.0
+# Nsight Systems (nsys) and CUDA MPS from the CUDA toolkit / driver

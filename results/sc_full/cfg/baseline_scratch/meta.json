@@ -1,0 +1,8 @@
+{
+ "cfg": "baseline_scratch",
+ "run": "baseline_scratch",
+ "imgsz": 640,
+ "detect_idx": 23,
+ "params": 9416670,
+ "torch": "2.13.0+cu132"
+}

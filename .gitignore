@@ -1,0 +1,4 @@
+analysis/output/
+__pycache__/
+*.pyc
+*.pkl

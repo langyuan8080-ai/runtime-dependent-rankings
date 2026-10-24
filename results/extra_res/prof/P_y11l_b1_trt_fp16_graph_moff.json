@@ -1,0 +1,6 @@
+{
+ "cid": "y11l",
+ "batch": 1,
+ "runtime": "trt_fp16_graph",
+ "status": "ok"
+}

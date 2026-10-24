@@ -1,0 +1,38 @@
+{
+ "layer": "Slice B",
+ "configs": [
+  "base640",
+  "p2_640",
+  "c1pos",
+  "Bplain",
+  "y11m",
+  "p2_832",
+  "base960",
+  "p2_960",
+  "base1120",
+  "y11l"
+ ],
+ "prereg": [
+  "base640",
+  "p2_640",
+  "c1pos",
+  "Bplain",
+  "y11m",
+  "p2_832",
+  "base960",
+  "p2_960",
+  "base1120"
+ ],
+ "exploratory": [
+  "y11l"
+ ],
+ "batches": [
+  1,
+  8
+ ],
+ "builds": 3,
+ "threads": 12,
+ "created": "2026-10-23 04:07:40",
+ "gpu": "NVIDIA GeForce RTX 3080 Ti, GPU-b077c02d-11be-3056-71c7-e5fb156013d8, 595.80",
+ "cpu": "Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz"
+}

@@ -1,0 +1,8 @@
+{
+ "cfg": "safep2_s1",
+ "run": "safep2_s1",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 9589433,
+ "torch": "2.13.0+cu132"
+}

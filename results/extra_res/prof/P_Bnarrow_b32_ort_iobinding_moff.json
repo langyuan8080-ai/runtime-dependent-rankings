@@ -1,0 +1,6 @@
+{
+ "cid": "Bnarrow",
+ "batch": 32,
+ "runtime": "ort_iobinding",
+ "status": "ok"
+}

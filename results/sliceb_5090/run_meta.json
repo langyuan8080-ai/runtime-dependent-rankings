@@ -1,0 +1,18 @@
+{
+ "configs": [
+  "base640",
+  "p2_640",
+  "c1pos",
+  "Bplain",
+  "y11m",
+  "p2_832",
+  "base960",
+  "p2_960",
+  "base1120",
+  "y11l"
+ ],
+ "builds": 3,
+ "created": "2026-10-23 10:25:13",
+ "seed": 20261016,
+ "share_ab": false
+}

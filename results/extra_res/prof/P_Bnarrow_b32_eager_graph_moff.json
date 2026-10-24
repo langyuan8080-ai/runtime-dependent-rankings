@@ -1,0 +1,6 @@
+{
+ "cid": "Bnarrow",
+ "batch": 32,
+ "runtime": "eager_graph",
+ "status": "ok"
+}

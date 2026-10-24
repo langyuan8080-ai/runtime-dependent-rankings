@@ -1,0 +1,8 @@
+{
+ "cfg": "hr_base1024_s1",
+ "run": "hr_base1024_s1",
+ "imgsz": 1024,
+ "detect_idx": 23,
+ "params": 9416670,
+ "torch": "2.13.0+cu132"
+}

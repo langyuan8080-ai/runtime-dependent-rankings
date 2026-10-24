@@ -1,0 +1,8 @@
+{
+ "cfg": "Bnarrow",
+ "run": "sci_Bnarrow_s0",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 9589989,
+ "torch": "2.13.0+cu132"
+}

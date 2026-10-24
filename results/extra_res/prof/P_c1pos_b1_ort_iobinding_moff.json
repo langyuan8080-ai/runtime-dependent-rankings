@@ -1,0 +1,6 @@
+{
+ "cid": "c1pos",
+ "batch": 1,
+ "runtime": "ort_iobinding",
+ "status": "ok"
+}

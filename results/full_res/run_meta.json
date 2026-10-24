@@ -1,0 +1,27 @@
+{
+ "configs": [
+  "base640",
+  "p2_640",
+  "afterA",
+  "c1bn",
+  "c1pos",
+  "Awide",
+  "Bnarrow",
+  "Bplain",
+  "Bg4",
+  "seg1",
+  "seg4",
+  "safew288",
+  "y11m",
+  "y11l",
+  "base960",
+  "base1024",
+  "base1120",
+  "p2_832",
+  "p2_960"
+ ],
+ "builds": 3,
+ "created": "2026-10-16 13:52:00",
+ "seed": 20261016,
+ "share_ab": true
+}

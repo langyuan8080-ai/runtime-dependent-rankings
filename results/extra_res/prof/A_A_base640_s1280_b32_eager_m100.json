@@ -1,0 +1,7 @@
+{
+ "cid": "A_base640_s1280",
+ "batch": 32,
+ "runtime": "eager",
+ "leaf_calls": 178,
+ "status": "ok"
+}

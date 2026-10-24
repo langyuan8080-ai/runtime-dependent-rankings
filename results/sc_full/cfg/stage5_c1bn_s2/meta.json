@@ -1,0 +1,8 @@
+{
+ "cfg": "stage5_c1bn_s2",
+ "run": "stage5_c1bn_s2",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 9717881,
+ "torch": "2.13.0+cu132"
+}

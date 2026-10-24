@@ -1,0 +1,6 @@
+{
+ "cid": "Bplain",
+ "batch": 8,
+ "runtime": "trt_int8a_graph",
+ "status": "ok"
+}

@@ -1,0 +1,6 @@
+{
+ "cid": "seg1",
+ "batch": 32,
+ "runtime": "compile_default",
+ "status": "ok"
+}

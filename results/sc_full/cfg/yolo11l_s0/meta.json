@@ -1,0 +1,8 @@
+{
+ "cfg": "yolo11l_s0",
+ "run": "yolo11l_s0",
+ "imgsz": 640,
+ "detect_idx": 23,
+ "params": 25287022,
+ "torch": "2.13.0+cu132"
+}

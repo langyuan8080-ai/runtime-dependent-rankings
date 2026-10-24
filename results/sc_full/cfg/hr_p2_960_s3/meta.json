@@ -1,0 +1,8 @@
+{
+ "cfg": "hr_p2_960_s3",
+ "run": "hr_p2_960_s3",
+ "imgsz": 960,
+ "detect_idx": 29,
+ "params": 9561720,
+ "torch": "2.13.0+cu132"
+}

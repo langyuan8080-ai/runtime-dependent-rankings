@@ -1,0 +1,6 @@
+{
+ "cid": "c1pos",
+ "batch": 32,
+ "runtime": "trt_int8b_graph",
+ "status": "ok"
+}

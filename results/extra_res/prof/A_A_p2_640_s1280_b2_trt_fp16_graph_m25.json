@@ -1,0 +1,6 @@
+{
+ "cid": "A_p2_640_s1280",
+ "batch": 2,
+ "runtime": "trt_fp16_graph",
+ "status": "ok"
+}

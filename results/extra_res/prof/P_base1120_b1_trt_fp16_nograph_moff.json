@@ -1,0 +1,6 @@
+{
+ "cid": "base1120",
+ "batch": 1,
+ "runtime": "trt_fp16_nograph",
+ "status": "ok"
+}

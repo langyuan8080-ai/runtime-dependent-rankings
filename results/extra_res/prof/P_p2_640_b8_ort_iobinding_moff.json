@@ -1,0 +1,6 @@
+{
+ "cid": "p2_640",
+ "batch": 8,
+ "runtime": "ort_iobinding",
+ "status": "ok"
+}

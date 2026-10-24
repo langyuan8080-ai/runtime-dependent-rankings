@@ -1,0 +1,6 @@
+{
+ "cid": "Bg4",
+ "batch": 1,
+ "runtime": "ort_iobinding",
+ "status": "ok"
+}

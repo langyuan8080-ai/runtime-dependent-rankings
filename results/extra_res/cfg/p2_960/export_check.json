@@ -1,0 +1,7 @@
+{
+ "fp32_md5_match_core": {
+  "fp32_b1": true,
+  "fp32_b8": true,
+  "fp32_b32": true
+ }
+}

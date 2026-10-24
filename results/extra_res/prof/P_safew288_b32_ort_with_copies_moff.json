@@ -1,0 +1,6 @@
+{
+ "cid": "safew288",
+ "batch": 32,
+ "runtime": "ort_with_copies",
+ "status": "ok"
+}

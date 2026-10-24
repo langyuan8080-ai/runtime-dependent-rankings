@@ -1,0 +1,8 @@
+{
+ "cfg": "stage6_p2fix_s0",
+ "run": "stage6_p2fix_s0",
+ "imgsz": 640,
+ "detect_idx": 29,
+ "params": 9561720,
+ "torch": "2.13.0+cu132"
+}

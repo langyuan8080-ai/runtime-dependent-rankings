@@ -1,0 +1,8 @@
+{
+ "cfg": "sci_Bg4_s0",
+ "run": "sci_Bg4_s0",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 9709432,
+ "torch": "2.13.0+cu132"
+}

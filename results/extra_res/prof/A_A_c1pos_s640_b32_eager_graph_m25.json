@@ -1,0 +1,6 @@
+{
+ "cid": "A_c1pos_s640",
+ "batch": 32,
+ "runtime": "eager_graph",
+ "status": "ok"
+}

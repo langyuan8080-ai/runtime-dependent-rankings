@@ -1,0 +1,7 @@
+{
+ "cid": "Bnarrow",
+ "batch": 32,
+ "runtime": "eager",
+ "leaf_calls": 236,
+ "status": "ok"
+}

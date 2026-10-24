@@ -1,0 +1,8 @@
+{
+ "cfg": "y26s",
+ "run": "__yolo26s__",
+ "imgsz": 640,
+ "detect_idx": 23,
+ "params": 9469050,
+ "torch": "2.13.0+cu132"
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Runtime-dependent rankings of detector design choices: code, measurements and analysis"
+authors:
+  - family-names: Lang
+    given-names: LinFang
+    affiliation: Youngsan University
+    orcid: "https://orcid.org/0009-0008-7210-5932"
+  - family-names: Kim
+    given-names: Jin-whan
+    affiliation: Youngsan University
+    email: kjw@ysu.ac.kr
+    orcid: "https://orcid.org/0000-0002-1912-0657"
+license: AGPL-3.0
+repository-code: "https://github.com/langyuan8080-ai/runtime-dependent-rankings"
+preferred-citation:
+  type: article
+  title: "Does the Deployment Runtime Change Which Detector Design Wins? Host-Bound and Device-Bound Latency Regimes of YOLO11-Based Detectors for UAV Imagery"
+  authors:
+    - family-names: Lang
+      given-names: LinFang
+    - family-names: Kim
+      given-names: Jin-whan
+  journal: "Journal of Real-Time Image Processing"
+  status: submitted

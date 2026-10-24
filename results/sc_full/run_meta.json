@@ -1,0 +1,11 @@
+{
+ "created": "2026-10-21 04:07:00",
+ "smoke": false,
+ "full": "/workspace/paper2_core/full",
+ "ref_dir": "/workspace/recheck_out",
+ "seed": 20261016,
+ "yamls": {
+  "val": "/workspace/visdrone.yaml",
+  "test": "/workspace/visdrone_testdev.yaml"
+ }
+}

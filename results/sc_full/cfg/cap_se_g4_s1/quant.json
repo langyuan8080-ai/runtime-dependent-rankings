@@ -1,0 +1,176 @@
+{
+ "modelopt": "0.47.0",
+ "procedure": "calibrate batch 1 (entropy, 512 images); batch 8/32 = batch-1 INT8 graph re-batched; scheme b derived from scheme a",
+ "int8a_b1": {
+  "seconds": 879.6,
+  "calibration": "entropy, 512 images",
+  "calibration_eps": [
+   "cuda:0",
+   "cpu"
+  ],
+  "calibrate_per_node": false,
+  "q_nodes": 232,
+  "q_nodes_in_head": 58
+ },
+ "int8b_b1": {
+  "seconds": 12.1,
+  "calibration": "scales from int8a_b1",
+  "transplant": {
+   "qdq_nodes": 346,
+   "params_copied": 692,
+   "params_changed": 194,
+   "weights_checked": 0
+  },
+  "q_nodes": 173,
+  "q_nodes_in_head": 0
+ },
+ "int8a_b8": {
+  "seconds": 5.6,
+  "calibration": "batch-1 graph re-batched",
+  "rebatch": {
+   "batch_dependent_constants": 13,
+   "names": [
+    "/m/model.10/m/m.0/attn/Constant_output_0",
+    "/m/model.10/m/m.0/attn/Constant_2_output_0",
+    "/m/model.10/m/m.0/attn/Constant_3_output_0",
+    "/m/model.30/Constant_output_0",
+    "/m/model.30/Constant_1_output_0",
+    "/m/model.30/Constant_2_output_0",
+    "/m/model.30/Constant_3_output_0",
+    "/m/model.30/Constant_4_output_0",
+    "/m/model.30/Constant_5_output_0",
+    "/m/model.30/Constant_6_output_0",
+    "/m/model.30/Constant_7_output_0",
+    "/m/model.30/dfl/Constant_output_0",
+    "/m/model.30/dfl/Constant_1_output_0"
+   ],
+   "vs_b1": {
+    "median": 1.8568424575704512e-10,
+    "p99": 0.01056338008493185,
+    "max": 0.0995696410536766,
+    "frac_gt_1e-3": 0.13222216386554622,
+    "fp32_reference": {
+     "median": 0.0,
+     "p99": 0.00010415544238639995,
+     "max": 0.003973040264099836,
+     "frac_gt_1e-3": 0.00015598739495798318
+    }
+   }
+  },
+  "q_nodes": 232,
+  "q_nodes_in_head": 58
+ },
+ "int8b_b8": {
+  "seconds": 4.1,
+  "calibration": "batch-1 graph re-batched",
+  "rebatch": {
+   "batch_dependent_constants": 13,
+   "names": [
+    "/m/model.10/m/m.0/attn/Constant_output_0",
+    "/m/model.10/m/m.0/attn/Constant_2_output_0",
+    "/m/model.10/m/m.0/attn/Constant_3_output_0",
+    "/m/model.30/Constant_output_0",
+    "/m/model.30/Constant_1_output_0",
+    "/m/model.30/Constant_2_output_0",
+    "/m/model.30/Constant_3_output_0",
+    "/m/model.30/Constant_4_output_0",
+    "/m/model.30/Constant_5_output_0",
+    "/m/model.30/Constant_6_output_0",
+    "/m/model.30/Constant_7_output_0",
+    "/m/model.30/dfl/Constant_output_0",
+    "/m/model.30/dfl/Constant_1_output_0"
+   ],
+   "vs_b1": {
+    "median": 0.0,
+    "p99": 0.00978090800344944,
+    "max": 0.10289514809846878,
+    "frac_gt_1e-3": 0.11468644957983193,
+    "fp32_reference": {
+     "median": 0.0,
+     "p99": 0.00010415544238639995,
+     "max": 0.003973040264099836,
+     "frac_gt_1e-3": 0.00015598739495798318
+    }
+   }
+  },
+  "q_nodes": 173,
+  "q_nodes_in_head": 0
+ },
+ "int8a_b32": {
+  "seconds": 5.5,
+  "calibration": "batch-1 graph re-batched",
+  "rebatch": {
+   "batch_dependent_constants": 13,
+   "names": [
+    "/m/model.10/m/m.0/attn/Constant_output_0",
+    "/m/model.10/m/m.0/attn/Constant_2_output_0",
+    "/m/model.10/m/m.0/attn/Constant_3_output_0",
+    "/m/model.30/Constant_output_0",
+    "/m/model.30/Constant_1_output_0",
+    "/m/model.30/Constant_2_output_0",
+    "/m/model.30/Constant_3_output_0",
+    "/m/model.30/Constant_4_output_0",
+    "/m/model.30/Constant_5_output_0",
+    "/m/model.30/Constant_6_output_0",
+    "/m/model.30/Constant_7_output_0",
+    "/m/model.30/dfl/Constant_output_0",
+    "/m/model.30/dfl/Constant_1_output_0"
+   ],
+   "vs_b1": {
+    "median": 1.8568424575704512e-10,
+    "p99": 0.010903426446020603,
+    "max": 0.10172144323587418,
+    "frac_gt_1e-3": 0.13303413865546218,
+    "fp32_reference": {
+     "median": 0.0,
+     "p99": 8.860736124916002e-05,
+     "max": 0.0016037767054513097,
+     "frac_gt_1e-3": 5.4096638655462186e-05
+    }
+   }
+  },
+  "q_nodes": 232,
+  "q_nodes_in_head": 58
+ },
+ "int8b_b32": {
+  "seconds": 5.2,
+  "calibration": "batch-1 graph re-batched",
+  "rebatch": {
+   "batch_dependent_constants": 13,
+   "names": [
+    "/m/model.10/m/m.0/attn/Constant_output_0",
+    "/m/model.10/m/m.0/attn/Constant_2_output_0",
+    "/m/model.10/m/m.0/attn/Constant_3_output_0",
+    "/m/model.30/Constant_output_0",
+    "/m/model.30/Constant_1_output_0",
+    "/m/model.30/Constant_2_output_0",
+    "/m/model.30/Constant_3_output_0",
+    "/m/model.30/Constant_4_output_0",
+    "/m/model.30/Constant_5_output_0",
+    "/m/model.30/Constant_6_output_0",
+    "/m/model.30/Constant_7_output_0",
+    "/m/model.30/dfl/Constant_output_0",
+    "/m/model.30/dfl/Constant_1_output_0"
+   ],
+   "vs_b1": {
+    "median": 0.0,
+    "p99": 0.01013250183314085,
+    "max": 0.1099373996257782,
+    "frac_gt_1e-3": 0.11574632352941176,
+    "fp32_reference": {
+     "median": 0.0,
+     "p99": 8.860736124916002e-05,
+     "max": 0.0016037767054513097,
+     "frac_gt_1e-3": 5.4096638655462186e-05
+    }
+   }
+  },
+  "q_nodes": 173,
+  "q_nodes_in_head": 0
+ },
+ "fp32_md5": {
+  "fp32_b1": "6f1d800ca9cf5d2653fbe08d3212719b",
+  "fp32_b8": "6bab8a8342d19ee6ea38f4e757b8d5bc",
+  "fp32_b32": "27d60d90b116a2bbd5b376b32c25292c"
+ }
+}

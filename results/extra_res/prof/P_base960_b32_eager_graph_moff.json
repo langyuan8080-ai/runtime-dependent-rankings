@@ -1,0 +1,6 @@
+{
+ "cid": "base960",
+ "batch": 32,
+ "runtime": "eager_graph",
+ "status": "ok"
+}

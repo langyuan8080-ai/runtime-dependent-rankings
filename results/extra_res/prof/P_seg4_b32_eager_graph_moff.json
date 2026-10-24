@@ -1,0 +1,6 @@
+{
+ "cid": "seg4",
+ "batch": 32,
+ "runtime": "eager_graph",
+ "status": "ok"
+}

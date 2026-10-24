@@ -1,0 +1,7 @@
+{
+ "cid": "A_Bplain_s960",
+ "batch": 32,
+ "runtime": "eager",
+ "leaf_calls": 215,
+ "status": "ok"
+}

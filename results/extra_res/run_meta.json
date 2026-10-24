@@ -1,0 +1,7 @@
+{
+ "created": "2026-10-19 00:13:19",
+ "smoke": false,
+ "nsys": "/usr/local/cuda/bin/nsys",
+ "full": "/workspace/paper2_core/full",
+ "seed": 20261016
+}

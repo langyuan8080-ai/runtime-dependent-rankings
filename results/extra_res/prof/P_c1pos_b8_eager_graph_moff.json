@@ -1,0 +1,6 @@
+{
+ "cid": "c1pos",
+ "batch": 8,
+ "runtime": "eager_graph",
+ "status": "ok"
+}

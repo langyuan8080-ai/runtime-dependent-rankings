@@ -1,0 +1,8 @@
+{
+ "cfg": "stage7_Bplain_s1",
+ "run": "stage7_Bplain_s1",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 10151800,
+ "torch": "2.13.0+cu132"
+}

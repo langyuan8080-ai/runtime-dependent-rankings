@@ -1,0 +1,8 @@
+{
+ "cfg": "cap_se_g4_s0",
+ "run": "cap_se_g4_s0",
+ "imgsz": 640,
+ "detect_idx": 30,
+ "params": 9717880,
+ "torch": "2.13.0+cu132"
+}

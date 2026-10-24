@@ -1,0 +1,6 @@
+{
+ "cid": "A_base640_s640",
+ "batch": 2,
+ "runtime": "trt_fp16_graph",
+ "status": "ok"
+}

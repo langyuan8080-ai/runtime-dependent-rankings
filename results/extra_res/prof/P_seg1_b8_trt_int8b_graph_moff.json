@@ -1,0 +1,6 @@
+{
+ "cid": "seg1",
+ "batch": 8,
+ "runtime": "trt_int8b_graph",
+ "status": "ok"
+}
