@@ -12,6 +12,7 @@ authors:
     email: kjw@ysu.ac.kr
     orcid: "https://orcid.org/0000-0002-1912-0657"
 license: AGPL-3.0
+doi: "10.5281/zenodo.23631046"
 repository-code: "https://github.com/langyuan8080-ai/runtime-dependent-rankings"
 preferred-citation:
   type: article

@@ -6,7 +6,7 @@ Code, raw measurements and analysis for the paper
 
 The study measures 20 YOLO11-based detector configurations (19 distinct for latency) from the companion study [Capacity Before Design](https://github.com/langyuan8080-ai/capacity-before-design) in eleven runtime–precision settings (eager PyTorch, CUDA Graphs, torch.compile, ONNX Runtime, TensorRT FP32/FP16/INT8) at batch sizes 1, 8 and 32 on an RTX 4090, profiles host and device time, restricts compute with CUDA MPS, measures accuracy for every training seed and precision, and repeats a subset on an RTX 3080 Ti and an RTX 5090. The research questions, hypotheses, measurement protocol and decision rules were frozen on 16 October 2026, before the first formal measurement; the protocol and its deviation log are deposited at OSF ([OSF DOI to be added]).
 
-Every number, table and figure of the paper can be recomputed from the files in `results/` on a CPU (`bash reproduce.sh`). The scripts that produced those files on the GPUs are in `measure/`. The trained weights and the full run logs are archived at Zenodo ([Zenodo DOI to be added]).
+Every number, table and figure of the paper can be recomputed from the files in `results/` on a CPU (`bash reproduce.sh`). The scripts that produced those files on the GPUs are in `measure/`. The trained weights and the full run logs are archived at Zenodo ([doi:10.5281/zenodo.23631046](https://doi.org/10.5281/zenodo.23631046)).
 
 ## Contents
 
@@ -65,7 +65,7 @@ Runtime cell names: `eager`, `eager_graph`, `compile_default`, `compile_ro` (red
 Environment of the primary machine (recorded in `results/*/env.jsonl`): NVIDIA RTX 4090, driver 610.57, Python 3.12.11, PyTorch 2.13.0 (CUDA 13.2), TensorRT 11.4.0.106, ONNX Runtime GPU 1.31.0, ONNX 1.23.2, Ultralytics 8.4.143, Nsight Systems; TensorRT Model Optimizer 0.47.0 in a separate virtual environment, because it cannot be installed next to this PyTorch version. See `requirements-gpu.txt`.
 
 1. Install Ultralytics 8.4.143 and register the custom modules with `tools/patch_ultralytics.py` from the [companion repository](https://github.com/langyuan8080-ai/capacity-before-design).
-2. Download the trained weights (`weights_best_68.tar`, 68 runs listed in `tools/weights_runs.txt`, checksums in `SHA256SUMS_weights.txt`) from Zenodo and unpack them so that every run is at `/workspace/runs/detect/<run>/weights/best.pt`; prepare VisDrone2019-DET under `/workspace/data` as described in the companion repository.
+2. Download the trained weights from [Zenodo](https://doi.org/10.5281/zenodo.23631046) (`weights_best_68.tar`, 68 runs listed in `tools/weights_runs.txt`, checksums in `SHA256SUMS_weights.txt`) and unpack them so that every run is at `/workspace/runs/detect/<run>/weights/best.pt`; prepare VisDrone2019-DET under `/workspace/data` as described in the companion repository.
 3. Set `PV_PY` (Python of the measurement environment) and `QV_PY` (Python of the Model Optimizer environment) if they differ from the defaults at the top of `measure/core.py`.
 4. Run each layer in the background and follow its progress, for example
 
