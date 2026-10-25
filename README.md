@@ -19,6 +19,7 @@ measure/            the measurement scripts exactly as run on the GPU servers
   appx.py           context measurements (TensorRT BF16, CPU, YOLO26-s) and INT8 layer inspection (Online Resource 4)
 analysis/           analysis scripts; reference/ holds the output tables used for the paper
 figures/figs.py     Figs. 1-3 of the paper and the study-design diagram of Online Resource 1
+tools/              weights_runs.txt (the 68 training runs whose best.pt weights were used), pack_weights.py
 results/            raw measurements (one folder per measurement layer, see below)
 reproduce.sh        recompute all analysis tables and figures and compare them with analysis/reference/
 ```
@@ -64,7 +65,7 @@ Runtime cell names: `eager`, `eager_graph`, `compile_default`, `compile_ro` (red
 Environment of the primary machine (recorded in `results/*/env.jsonl`): NVIDIA RTX 4090, driver 610.57, Python 3.12.11, PyTorch 2.13.0 (CUDA 13.2), TensorRT 11.4.0.106, ONNX Runtime GPU 1.31.0, ONNX 1.23.2, Ultralytics 8.4.143, Nsight Systems; TensorRT Model Optimizer 0.47.0 in a separate virtual environment, because it cannot be installed next to this PyTorch version. See `requirements-gpu.txt`.
 
 1. Install Ultralytics 8.4.143 and register the custom modules with `tools/patch_ultralytics.py` from the [companion repository](https://github.com/langyuan8080-ai/capacity-before-design).
-2. Download the trained weights from Zenodo and unpack them so that every run is at `/workspace/runs/detect/<run>/weights/best.pt`; prepare VisDrone2019-DET under `/workspace/data` as described in the companion repository.
+2. Download the trained weights (`weights_best_68.tar`, 68 runs listed in `tools/weights_runs.txt`, checksums in `SHA256SUMS_weights.txt`) from Zenodo and unpack them so that every run is at `/workspace/runs/detect/<run>/weights/best.pt`; prepare VisDrone2019-DET under `/workspace/data` as described in the companion repository.
 3. Set `PV_PY` (Python of the measurement environment) and `QV_PY` (Python of the Model Optimizer environment) if they differ from the defaults at the top of `measure/core.py`.
 4. Run each layer in the background and follow its progress, for example
 
