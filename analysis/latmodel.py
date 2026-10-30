@@ -28,3 +28,9 @@ M=P.merge(W,on=['cfg','imgsz','batch','mps']); M['h']=1-M.t_dev_ms/M.t_wall
 print("Slice A eager cells matched:",len(M), sorted(M.mps.unique()))
 report("Slice A eager, core t_d (no refit)",M,out['eager'])
 for m in sorted(M.mps.unique()): report(f"   MPS {m}",M[M.mps==m],out['eager'])
+# Without a profiler: T_dev replaced by the eager + CUDA Graph latency of the same configuration and batch (h < 0.04
+# in that cell), t_d kept at the core eager value; regimes still judged against the profiled host share.
+G=C[C.runtime=='eager_graph'][['cfg','batch','t_wall']].rename(columns={'t_wall':'t_graph'})
+X=C[C.runtime=='eager'].dropna(subset=['t_wall']).merge(G,on=['cfg','batch'])
+print("eager + CUDA Graph host share: max |h| %.3f"%C[C.runtime=='eager_graph'].h.abs().max())
+report("core eager, T_dev := graph latency",X.assign(t_dev_ms=X.t_graph),out['eager'])

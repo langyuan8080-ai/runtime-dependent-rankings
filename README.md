@@ -36,9 +36,10 @@ The script links the result folders into `analysis/output/`, runs the analysis s
 | Paper item | Source data | Script → output |
 |---|---|---|
 | Section 4.1, H1a–H1c, Online Resource 2 (all pair comparisons, outcome classes) | `results/full_res/latency.csv` | `analysis/rq1.py` → `rq1_pairs.csv` |
+| Section 4.1, robustness of H1b (exploratory; Online Resource 2, sheets Sensitivity_by_setting and Drift_eager_b1) | `rq1_pairs.csv`, `results/full_res/latency.csv` | `analysis/sens_threshold.py` → `sens_pairs_threshold.csv`; `analysis/sens_drift.py` → `sens_block_factors.csv`, `sens_eager_b1_pairs_norm.csv`, `sens_pairs_drift_norm.csv` |
 | Fig. 1 (D2 latency ratios) | `rq1_pairs.csv` | `figures/figs.py` |
 | Section 4.2, H2a–H2c, H3b, Fig. 3a | `results/full_res/latency.csv`, `results/stageP/profile.csv` | `analysis/rq2.py` → `rq2_cells.csv`; `rq1.py` → `rq2_ols.csv` |
-| Eq. (1), overlap model | `rq2_cells.csv`, `results/extra_res/profile.csv`, `results/extra_res/latency_A.csv` | `analysis/latmodel.py` → `latmodel.txt` |
+| Eq. (1), overlap model, incl. the profiler-free variant (T_dev replaced by the eager + CUDA Graph latency) | `rq2_cells.csv`, `results/extra_res/profile.csv`, `results/extra_res/latency_A.csv` | `analysis/latmodel.py` → `latmodel.txt` |
 | Section 4.3, Table 3, H3a | `results/extra_res/latency_A.csv`, `results/extra_res/profile.csv` | `analysis/rq3.py` → `rq3_cells.csv` |
 | Table 1 (accuracy columns), Section 4.4, H4a–H4c, Fig. 3b | `results/sc_full/accuracy.csv`, `coco.csv`, `latency_C.csv`, `sanity.csv` | `analysis/rq4.py` → `rq4_accuracy_runs.csv`, `rq4_summary.csv` |
 | H1d, Fig. 2 (Pareto fronts) | `full_res/latency.csv`, `rq4_accuracy_runs.csv` | `analysis/h1d_v2.py` (corrected rule, reported) → `h1d_fronts_v2.csv`; `h1d.py` (original rule) and `h1d_noY.py` (without single-seed models) for the sensitivity analyses |
