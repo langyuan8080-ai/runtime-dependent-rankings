@@ -34,3 +34,9 @@ G=C[C.runtime=='eager_graph'][['cfg','batch','t_wall']].rename(columns={'t_wall'
 X=C[C.runtime=='eager'].dropna(subset=['t_wall']).merge(G,on=['cfg','batch'])
 print("eager + CUDA Graph host share: max |h| %.3f"%C[C.runtime=='eager_graph'].h.abs().max())
 report("core eager, T_dev := graph latency",X.assign(t_dev_ms=X.t_graph),out['eager'])
+# leave-one-configuration-out: t_d fitted on the other configurations (graph latency as T_dev), applied to the held-out one
+Xg=X.assign(t_dev_ms=X.t_graph); errs=[]; agree=[]
+for c in Xg.cfg.unique():
+    tr,te=Xg[Xg.cfg!=c],Xg[Xg.cfg==c]; t=fit(tr); p=np.maximum(te.n_kernel*t/1000,te.t_dev_ms)
+    errs+=list(np.abs(p/te.t_wall-1)*100); agree+=list((te.n_kernel*t/1000>=2*te.t_dev_ms)==(te.h>=0.5))
+print(f"   leave-one-config-out (graph latency as T_dev): error median {np.median(errs):.1f}% max {np.max(errs):.1f}%, regime agreement {np.mean(agree)*100:.0f}%")

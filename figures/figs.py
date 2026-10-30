@@ -66,6 +66,9 @@ def fig2():
     D["ratio"] = (D.mx / D.my - 1) * 100
     pairs = [("c1pos", "y11m"), ("c1pos", "y11l"), ("safew288", "y11m"), ("safew288", "y11l")]
     cols = [(b, r) for b in (1, 8, 32) for r in RT]
+    DN = pd.read_csv("sens_pairs_drift_norm.csv")   # analysis/sens_drift.py
+    NOTROBUST = {(q.x, q.y, q.batch, q.runtime) for q in DN.itertuples()
+                 if q.category == "strict reversal" and q.cat_norm_all != "strict reversal"}
     M = np.full((4, len(cols)), np.nan); RES = np.zeros_like(M, bool); SR = np.zeros_like(M, bool)
     for i, (x, y) in enumerate(pairs):
         for j, (b, r) in enumerate(cols):
@@ -84,6 +87,8 @@ def fig2():
                 color="white" if RES[i, j] and abs(v) > 55 else INK)
         if SR[i, j]:
             ax.add_patch(plt.Rectangle((j - .46, i - .46), .92, .92, fc="none", ec=INK, lw=1.1))
+            if (pairs[i][0], pairs[i][1], cols[j][0], cols[j][1]) in NOTROBUST:   # reversal lost after drift normalization
+                ax.text(j + .40, i - .40, "\u2020", ha="right", va="top", fontsize=5.5, color=INK)
     for k in (11, 22):
         ax.axvline(k - .5, color="white", lw=3)
     ax.set_xticks(range(len(cols))); ax.set_xticklabels([RTL[r] for b, r in cols], rotation=90, fontsize=5.6)
@@ -94,12 +99,10 @@ def fig2():
     for s in ax.spines.values():
         s.set_visible(False)
     # legend
-    cax = fig.add_axes([0.80, -0.36, 0.17, 0.035])
+    cax = fig.add_axes([0.80, -0.30, 0.17, 0.035])
     cb = fig.colorbar(plt.cm.ScalarMappable(norm=TwoSlopeNorm(0, -lim, lim), cmap=cmap), cax=cax, orientation="horizontal")
     cb.set_ticks([-80, -40, 0, 40, 80]); cb.ax.tick_params(labelsize=6, length=2); cb.outline.set_visible(False)
     cb.set_label("latency of module config / scaled model − 1 (%)", fontsize=6.3)
-    fig.text(0.0, -0.31, "Blue: the module configuration is faster; red: slower.  Hatched: difference not resolved.  "
-             "Black frame: strict reversal relative to eager batch 1.", fontsize=6.3, color=INK2)
     save(fig, "Fig1_D2_heatmap")
 
 
@@ -113,7 +116,7 @@ def fig3():
     panels = [(1, "eager", "eager_sq", "Eager, batch 1"), (1, "trt_fp16_graph", "trt_fp16", "TensorRT FP16 + graph, batch 1"),
               (32, "trt_fp16_graph", "trt_fp16", "TensorRT FP16 + graph, batch 32")]
     fig, axs = plt.subplots(1, 3, figsize=(W, 2.6))
-    for ax, (b, r, path, title) in zip(axs, panels):
+    for k_ax, (ax, (b, r, path, title)) in enumerate(zip(axs, panels)):
         front = set(F[(F.batch == b) & (F.runtime == r)].front.iloc[0].split())
         acc = A[A.path == path].groupby("cfg").map5095.agg(["mean", "std", "count"])
         pts = []
@@ -131,11 +134,14 @@ def fig3():
         ax.plot([p[1] for p in fr], [p[4] for p in fr], color=BLUE, lw=0.9, zorder=0)
         OFF = {"c1pos": (14, 14, "left"), "y11m": (14, -14, "left"), "y11l": (-14, 14, "right"), "Bplain": (-6, 5, "right"),
                "Bg4": (5, -3, "left"), "base960": (5, -5, "left"), "base1120": (5, 5, "left")}
+        OFFP = [{"c1pos": (24, -10, "left"), "y11m": (30, -24, "left"), "y11l": (-4, 9, "right")},   # per panel: no crossing leaders
+                {"c1pos": (22, -12, "left"), "y11m": (30, -26, "left"), "y11l": (-2, 9, "right")},
+                {"c1pos": (16, -8, "left"), "y11m": (24, -24, "left"), "y11l": (14, 10, "left")}][k_ax]
         for cfg, m, lo, hi, a, sd, n in pts:
             if cfg == "base960b16":
                 continue
             if cfg in front or cfg in ("c1pos", "y11l", "y11m"):
-                dx, dy, ha = OFF.get(cfg, (4, -1, "left"))
+                dx, dy, ha = OFFP.get(cfg) or OFF.get(cfg, (4, -1, "left"))
                 lab = "Baseline 960 (both groups)" if cfg == "base960" else NAME[cfg] + (" (1 seed)" if n == 1 else "")
                 ax.annotate(lab, (m, a), xytext=(dx, dy), textcoords="offset points", ha=ha,
                             fontsize=5.4, color=BLUE if cfg in front else INK2, va="center",
@@ -144,8 +150,6 @@ def fig3():
         ax.set_xlabel("latency per image (ms)" if b > 1 else "latency (ms)")
         clean(ax, "both")
     axs[0].set_ylabel("test-dev mAP@0.5:0.95 (%)")
-    fig.text(0.0, -0.06, "Filled: on the Pareto front. Error bars: 95% bootstrap interval of the latency median; seed SD of mAP "
-             "(YOLO11m and YOLO11l have one seed). Batch-32 latency divided by 32.", fontsize=6.3, color=INK2)
     fig.tight_layout(w_pad=1.2)
     save(fig, "Fig2_pareto")
 

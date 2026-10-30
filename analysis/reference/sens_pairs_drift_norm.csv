@@ -1,801 +1,801 @@
-batch,runtime,family,x,y,category,cat_norm
-1,compile_default,D1,p2_832,base960,unchanged,unchanged
-1,compile_default,D1,p2_960,base1120,unchanged,unchanged
-1,compile_default,D1b,c1pos,base960,unchanged,unchanged
-1,compile_default,D1b,safew288,base960,unchanged,unchanged
-1,compile_default,D2,c1pos,y11m,unchanged,emergent difference
-1,compile_default,D2,c1pos,y11l,unchanged,unchanged
-1,compile_default,D2,safew288,y11m,emergent difference,emergent difference
-1,compile_default,D2,safew288,y11l,unchanged,unchanged
-1,compile_default,D3,c1pos,c1bn,emergent difference,emergent difference
-1,compile_default,D3,c1pos,Bplain,unchanged,unchanged
-1,compile_default,D3,c1pos,Bg4,unchanged,unchanged
-1,compile_default,D3,c1pos,seg1,unchanged,unchanged
-1,compile_default,D3,c1pos,seg4,emergent difference,emergent difference
-1,compile_default,D3,c1bn,Bplain,unchanged,unchanged
-1,compile_default,D3,c1bn,Bg4,emergent difference,unchanged
-1,compile_default,D3,c1bn,seg1,emergent difference,emergent difference
-1,compile_default,D3,c1bn,seg4,emergent difference,emergent difference
-1,compile_default,D3,Bplain,Bg4,unchanged,unchanged
-1,compile_default,D3,Bplain,seg1,unchanged,lost advantage
-1,compile_default,D3,Bplain,seg4,emergent difference,emergent difference
-1,compile_default,D3,Bg4,seg1,unchanged,unchanged
-1,compile_default,D3,Bg4,seg4,unchanged,unchanged
-1,compile_default,D3,seg1,seg4,unchanged,unchanged
-1,compile_default,D4,Awide,c1pos,unchanged,unchanged
-1,compile_default,D4,afterA,Bnarrow,unchanged,unchanged
-1,compile_ro,D1,p2_832,base960,unchanged,unchanged
-1,compile_ro,D1,p2_960,base1120,unchanged,unchanged
-1,compile_ro,D1b,c1pos,base960,unchanged,unchanged
-1,compile_ro,D1b,safew288,base960,unchanged,unchanged
-1,compile_ro,D2,c1pos,y11m,unchanged,emergent difference
-1,compile_ro,D2,c1pos,y11l,unchanged,unchanged
-1,compile_ro,D2,safew288,y11m,emergent difference,emergent difference
-1,compile_ro,D2,safew288,y11l,strict reversal,strict reversal
-1,compile_ro,D3,c1pos,c1bn,emergent difference,emergent difference
-1,compile_ro,D3,c1pos,Bplain,unchanged,unchanged
-1,compile_ro,D3,c1pos,Bg4,unchanged,unchanged
-1,compile_ro,D3,c1pos,seg1,unchanged,unchanged
-1,compile_ro,D3,c1pos,seg4,emergent difference,emergent difference
-1,compile_ro,D3,c1bn,Bplain,unchanged,unchanged
-1,compile_ro,D3,c1bn,Bg4,emergent difference,unchanged
-1,compile_ro,D3,c1bn,seg1,emergent difference,emergent difference
-1,compile_ro,D3,c1bn,seg4,emergent difference,emergent difference
-1,compile_ro,D3,Bplain,Bg4,emergent difference,emergent difference
-1,compile_ro,D3,Bplain,seg1,unchanged,lost advantage
-1,compile_ro,D3,Bplain,seg4,emergent difference,emergent difference
-1,compile_ro,D3,Bg4,seg1,emergent difference,emergent difference
-1,compile_ro,D3,Bg4,seg4,unchanged,unchanged
-1,compile_ro,D3,seg1,seg4,emergent difference,emergent difference
-1,compile_ro,D4,Awide,c1pos,unchanged,unchanged
-1,compile_ro,D4,afterA,Bnarrow,emergent difference,emergent difference
-1,eager_graph,D1,p2_832,base960,unchanged,unchanged
-1,eager_graph,D1,p2_960,base1120,unchanged,unchanged
-1,eager_graph,D1b,c1pos,base960,unchanged,unchanged
-1,eager_graph,D1b,safew288,base960,unchanged,unchanged
-1,eager_graph,D2,c1pos,y11m,strict reversal,emergent difference
-1,eager_graph,D2,c1pos,y11l,unchanged,unchanged
-1,eager_graph,D2,safew288,y11m,emergent difference,emergent difference
-1,eager_graph,D2,safew288,y11l,unchanged,unchanged
-1,eager_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-1,eager_graph,D3,c1pos,Bplain,unchanged,unchanged
-1,eager_graph,D3,c1pos,Bg4,unchanged,unchanged
-1,eager_graph,D3,c1pos,seg1,unchanged,unchanged
-1,eager_graph,D3,c1pos,seg4,emergent difference,emergent difference
-1,eager_graph,D3,c1bn,Bplain,unchanged,unchanged
-1,eager_graph,D3,c1bn,Bg4,emergent difference,unchanged
-1,eager_graph,D3,c1bn,seg1,emergent difference,emergent difference
-1,eager_graph,D3,c1bn,seg4,emergent difference,emergent difference
-1,eager_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-1,eager_graph,D3,Bplain,seg1,unchanged,lost advantage
-1,eager_graph,D3,Bplain,seg4,emergent difference,emergent difference
-1,eager_graph,D3,Bg4,seg1,emergent difference,emergent difference
-1,eager_graph,D3,Bg4,seg4,unchanged,unchanged
-1,eager_graph,D3,seg1,seg4,emergent difference,emergent difference
-1,eager_graph,D4,Awide,c1pos,unchanged,unchanged
-1,eager_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-1,ort_iobinding,D1,p2_832,base960,unchanged,unchanged
-1,ort_iobinding,D1,p2_960,base1120,unchanged,unchanged
-1,ort_iobinding,D1b,c1pos,base960,unchanged,unchanged
-1,ort_iobinding,D1b,safew288,base960,unchanged,unchanged
-1,ort_iobinding,D2,c1pos,y11m,lost advantage,unchanged
-1,ort_iobinding,D2,c1pos,y11l,unchanged,unchanged
-1,ort_iobinding,D2,safew288,y11m,emergent difference,emergent difference
-1,ort_iobinding,D2,safew288,y11l,unchanged,unchanged
-1,ort_iobinding,D3,c1pos,c1bn,emergent difference,emergent difference
-1,ort_iobinding,D3,c1pos,Bplain,unchanged,unchanged
-1,ort_iobinding,D3,c1pos,Bg4,unchanged,unchanged
-1,ort_iobinding,D3,c1pos,seg1,unchanged,unchanged
-1,ort_iobinding,D3,c1pos,seg4,emergent difference,emergent difference
-1,ort_iobinding,D3,c1bn,Bplain,unchanged,unchanged
-1,ort_iobinding,D3,c1bn,Bg4,emergent difference,unchanged
-1,ort_iobinding,D3,c1bn,seg1,emergent difference,emergent difference
-1,ort_iobinding,D3,c1bn,seg4,emergent difference,emergent difference
-1,ort_iobinding,D3,Bplain,Bg4,emergent difference,emergent difference
-1,ort_iobinding,D3,Bplain,seg1,unchanged,lost advantage
-1,ort_iobinding,D3,Bplain,seg4,emergent difference,emergent difference
-1,ort_iobinding,D3,Bg4,seg1,emergent difference,emergent difference
-1,ort_iobinding,D3,Bg4,seg4,emergent difference,emergent difference
-1,ort_iobinding,D3,seg1,seg4,emergent difference,emergent difference
-1,ort_iobinding,D4,Awide,c1pos,unchanged,unchanged
-1,ort_iobinding,D4,afterA,Bnarrow,unchanged,unchanged
-1,ort_with_copies,D1,p2_832,base960,unchanged,unchanged
-1,ort_with_copies,D1,p2_960,base1120,lost advantage,lost advantage
-1,ort_with_copies,D1b,c1pos,base960,unchanged,unchanged
-1,ort_with_copies,D1b,safew288,base960,unchanged,unchanged
-1,ort_with_copies,D2,c1pos,y11m,lost advantage,unchanged
-1,ort_with_copies,D2,c1pos,y11l,unchanged,unchanged
-1,ort_with_copies,D2,safew288,y11m,emergent difference,emergent difference
-1,ort_with_copies,D2,safew288,y11l,unchanged,unchanged
-1,ort_with_copies,D3,c1pos,c1bn,emergent difference,emergent difference
-1,ort_with_copies,D3,c1pos,Bplain,unchanged,unchanged
-1,ort_with_copies,D3,c1pos,Bg4,unchanged,unchanged
-1,ort_with_copies,D3,c1pos,seg1,unchanged,unchanged
-1,ort_with_copies,D3,c1pos,seg4,emergent difference,emergent difference
-1,ort_with_copies,D3,c1bn,Bplain,unchanged,unchanged
-1,ort_with_copies,D3,c1bn,Bg4,emergent difference,unchanged
-1,ort_with_copies,D3,c1bn,seg1,unchanged,unchanged
-1,ort_with_copies,D3,c1bn,seg4,emergent difference,emergent difference
-1,ort_with_copies,D3,Bplain,Bg4,emergent difference,emergent difference
-1,ort_with_copies,D3,Bplain,seg1,emergent difference,unchanged
-1,ort_with_copies,D3,Bplain,seg4,emergent difference,emergent difference
-1,ort_with_copies,D3,Bg4,seg1,emergent difference,emergent difference
-1,ort_with_copies,D3,Bg4,seg4,unchanged,unchanged
-1,ort_with_copies,D3,seg1,seg4,emergent difference,emergent difference
-1,ort_with_copies,D4,Awide,c1pos,unchanged,unchanged
-1,ort_with_copies,D4,afterA,Bnarrow,emergent difference,emergent difference
-1,trt_fp16_graph,D1,p2_832,base960,unchanged,unchanged
-1,trt_fp16_graph,D1,p2_960,base1120,unchanged,unchanged
-1,trt_fp16_graph,D1b,c1pos,base960,unchanged,unchanged
-1,trt_fp16_graph,D1b,safew288,base960,unchanged,unchanged
-1,trt_fp16_graph,D2,c1pos,y11m,unchanged,emergent difference
-1,trt_fp16_graph,D2,c1pos,y11l,unchanged,unchanged
-1,trt_fp16_graph,D2,safew288,y11m,emergent difference,emergent difference
-1,trt_fp16_graph,D2,safew288,y11l,unchanged,unchanged
-1,trt_fp16_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-1,trt_fp16_graph,D3,c1pos,Bplain,unchanged,unchanged
-1,trt_fp16_graph,D3,c1pos,Bg4,unchanged,unchanged
-1,trt_fp16_graph,D3,c1pos,seg1,unchanged,unchanged
-1,trt_fp16_graph,D3,c1pos,seg4,emergent difference,emergent difference
-1,trt_fp16_graph,D3,c1bn,Bplain,lost advantage,lost advantage
-1,trt_fp16_graph,D3,c1bn,Bg4,emergent difference,unchanged
-1,trt_fp16_graph,D3,c1bn,seg1,unchanged,unchanged
-1,trt_fp16_graph,D3,c1bn,seg4,emergent difference,emergent difference
-1,trt_fp16_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-1,trt_fp16_graph,D3,Bplain,seg1,unchanged,lost advantage
-1,trt_fp16_graph,D3,Bplain,seg4,unchanged,unchanged
-1,trt_fp16_graph,D3,Bg4,seg1,emergent difference,emergent difference
-1,trt_fp16_graph,D3,Bg4,seg4,unchanged,unchanged
-1,trt_fp16_graph,D3,seg1,seg4,emergent difference,emergent difference
-1,trt_fp16_graph,D4,Awide,c1pos,unchanged,unchanged
-1,trt_fp16_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-1,trt_fp16_nograph,D1,p2_832,base960,unchanged,unchanged
-1,trt_fp16_nograph,D1,p2_960,base1120,unchanged,unchanged
-1,trt_fp16_nograph,D1b,c1pos,base960,unchanged,unchanged
-1,trt_fp16_nograph,D1b,safew288,base960,unchanged,unchanged
-1,trt_fp16_nograph,D2,c1pos,y11m,unchanged,emergent difference
-1,trt_fp16_nograph,D2,c1pos,y11l,unchanged,unchanged
-1,trt_fp16_nograph,D2,safew288,y11m,emergent difference,emergent difference
-1,trt_fp16_nograph,D2,safew288,y11l,unchanged,unchanged
-1,trt_fp16_nograph,D3,c1pos,c1bn,emergent difference,emergent difference
-1,trt_fp16_nograph,D3,c1pos,Bplain,unchanged,unchanged
-1,trt_fp16_nograph,D3,c1pos,Bg4,unchanged,unchanged
-1,trt_fp16_nograph,D3,c1pos,seg1,unchanged,unchanged
-1,trt_fp16_nograph,D3,c1pos,seg4,emergent difference,emergent difference
-1,trt_fp16_nograph,D3,c1bn,Bplain,unchanged,unchanged
-1,trt_fp16_nograph,D3,c1bn,Bg4,emergent difference,unchanged
-1,trt_fp16_nograph,D3,c1bn,seg1,unchanged,unchanged
-1,trt_fp16_nograph,D3,c1bn,seg4,emergent difference,emergent difference
-1,trt_fp16_nograph,D3,Bplain,Bg4,emergent difference,emergent difference
-1,trt_fp16_nograph,D3,Bplain,seg1,unchanged,lost advantage
-1,trt_fp16_nograph,D3,Bplain,seg4,unchanged,unchanged
-1,trt_fp16_nograph,D3,Bg4,seg1,emergent difference,emergent difference
-1,trt_fp16_nograph,D3,Bg4,seg4,unchanged,unchanged
-1,trt_fp16_nograph,D3,seg1,seg4,emergent difference,emergent difference
-1,trt_fp16_nograph,D4,Awide,c1pos,unchanged,unchanged
-1,trt_fp16_nograph,D4,afterA,Bnarrow,emergent difference,emergent difference
-1,trt_fp32_graph,D1,p2_832,base960,unchanged,unchanged
-1,trt_fp32_graph,D1,p2_960,base1120,lost advantage,lost advantage
-1,trt_fp32_graph,D1b,c1pos,base960,unchanged,unchanged
-1,trt_fp32_graph,D1b,safew288,base960,unchanged,unchanged
-1,trt_fp32_graph,D2,c1pos,y11m,strict reversal,emergent difference
-1,trt_fp32_graph,D2,c1pos,y11l,unchanged,unchanged
-1,trt_fp32_graph,D2,safew288,y11m,emergent difference,emergent difference
-1,trt_fp32_graph,D2,safew288,y11l,unchanged,unchanged
-1,trt_fp32_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-1,trt_fp32_graph,D3,c1pos,Bplain,unchanged,unchanged
-1,trt_fp32_graph,D3,c1pos,Bg4,unchanged,unchanged
-1,trt_fp32_graph,D3,c1pos,seg1,unchanged,unchanged
-1,trt_fp32_graph,D3,c1pos,seg4,emergent difference,emergent difference
-1,trt_fp32_graph,D3,c1bn,Bplain,unchanged,unchanged
-1,trt_fp32_graph,D3,c1bn,Bg4,emergent difference,unchanged
-1,trt_fp32_graph,D3,c1bn,seg1,unchanged,unchanged
-1,trt_fp32_graph,D3,c1bn,seg4,emergent difference,emergent difference
-1,trt_fp32_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-1,trt_fp32_graph,D3,Bplain,seg1,emergent difference,unchanged
-1,trt_fp32_graph,D3,Bplain,seg4,emergent difference,emergent difference
-1,trt_fp32_graph,D3,Bg4,seg1,emergent difference,emergent difference
-1,trt_fp32_graph,D3,Bg4,seg4,unchanged,unchanged
-1,trt_fp32_graph,D3,seg1,seg4,emergent difference,emergent difference
-1,trt_fp32_graph,D4,Awide,c1pos,emergent difference,emergent difference
-1,trt_fp32_graph,D4,afterA,Bnarrow,unchanged,unchanged
-1,trt_int8a_graph,D1,p2_832,base960,unchanged,unchanged
-1,trt_int8a_graph,D1,p2_960,base1120,unchanged,unchanged
-1,trt_int8a_graph,D1b,c1pos,base960,unchanged,unchanged
-1,trt_int8a_graph,D1b,safew288,base960,unchanged,unchanged
-1,trt_int8a_graph,D2,c1pos,y11m,unchanged,emergent difference
-1,trt_int8a_graph,D2,c1pos,y11l,unchanged,unchanged
-1,trt_int8a_graph,D2,safew288,y11m,emergent difference,emergent difference
-1,trt_int8a_graph,D2,safew288,y11l,unchanged,unchanged
-1,trt_int8a_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-1,trt_int8a_graph,D3,c1pos,Bplain,unchanged,unchanged
-1,trt_int8a_graph,D3,c1pos,Bg4,unchanged,unchanged
-1,trt_int8a_graph,D3,c1pos,seg1,unchanged,unchanged
-1,trt_int8a_graph,D3,c1pos,seg4,emergent difference,emergent difference
-1,trt_int8a_graph,D3,c1bn,Bplain,unchanged,unchanged
-1,trt_int8a_graph,D3,c1bn,Bg4,emergent difference,unchanged
-1,trt_int8a_graph,D3,c1bn,seg1,unchanged,unchanged
-1,trt_int8a_graph,D3,c1bn,seg4,emergent difference,emergent difference
-1,trt_int8a_graph,D3,Bplain,Bg4,unchanged,unchanged
-1,trt_int8a_graph,D3,Bplain,seg1,unchanged,lost advantage
-1,trt_int8a_graph,D3,Bplain,seg4,unchanged,unchanged
-1,trt_int8a_graph,D3,Bg4,seg1,unchanged,unchanged
-1,trt_int8a_graph,D3,Bg4,seg4,unchanged,unchanged
-1,trt_int8a_graph,D3,seg1,seg4,unchanged,unchanged
-1,trt_int8a_graph,D4,Awide,c1pos,unchanged,unchanged
-1,trt_int8a_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-1,trt_int8b_graph,D1,p2_832,base960,unchanged,unchanged
-1,trt_int8b_graph,D1,p2_960,base1120,unchanged,unchanged
-1,trt_int8b_graph,D1b,c1pos,base960,unchanged,unchanged
-1,trt_int8b_graph,D1b,safew288,base960,unchanged,unchanged
-1,trt_int8b_graph,D2,c1pos,y11m,unchanged,emergent difference
-1,trt_int8b_graph,D2,c1pos,y11l,unchanged,unchanged
-1,trt_int8b_graph,D2,safew288,y11m,emergent difference,emergent difference
-1,trt_int8b_graph,D2,safew288,y11l,unchanged,unchanged
-1,trt_int8b_graph,D3,c1pos,c1bn,unchanged,unchanged
-1,trt_int8b_graph,D3,c1pos,Bplain,unchanged,unchanged
-1,trt_int8b_graph,D3,c1pos,Bg4,unchanged,unchanged
-1,trt_int8b_graph,D3,c1pos,seg1,unchanged,unchanged
-1,trt_int8b_graph,D3,c1pos,seg4,emergent difference,emergent difference
-1,trt_int8b_graph,D3,c1bn,Bplain,unchanged,unchanged
-1,trt_int8b_graph,D3,c1bn,Bg4,emergent difference,unchanged
-1,trt_int8b_graph,D3,c1bn,seg1,unchanged,unchanged
-1,trt_int8b_graph,D3,c1bn,seg4,emergent difference,emergent difference
-1,trt_int8b_graph,D3,Bplain,Bg4,unchanged,unchanged
-1,trt_int8b_graph,D3,Bplain,seg1,unchanged,lost advantage
-1,trt_int8b_graph,D3,Bplain,seg4,unchanged,unchanged
-1,trt_int8b_graph,D3,Bg4,seg1,emergent difference,emergent difference
-1,trt_int8b_graph,D3,Bg4,seg4,unchanged,unchanged
-1,trt_int8b_graph,D3,seg1,seg4,unchanged,unchanged
-1,trt_int8b_graph,D4,Awide,c1pos,unchanged,unchanged
-1,trt_int8b_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,compile_default,D1,p2_832,base960,unchanged,unchanged
-8,compile_default,D1,p2_960,base1120,unchanged,unchanged
-8,compile_default,D1b,c1pos,base960,unchanged,unchanged
-8,compile_default,D1b,safew288,base960,unchanged,unchanged
-8,compile_default,D2,c1pos,y11m,unchanged,emergent difference
-8,compile_default,D2,c1pos,y11l,strict reversal,strict reversal
-8,compile_default,D2,safew288,y11m,emergent difference,emergent difference
-8,compile_default,D2,safew288,y11l,strict reversal,strict reversal
-8,compile_default,D3,c1pos,c1bn,emergent difference,emergent difference
-8,compile_default,D3,c1pos,Bplain,unchanged,unchanged
-8,compile_default,D3,c1pos,Bg4,unchanged,unchanged
-8,compile_default,D3,c1pos,seg1,unchanged,unchanged
-8,compile_default,D3,c1pos,seg4,emergent difference,emergent difference
-8,compile_default,D3,c1bn,Bplain,unchanged,unchanged
-8,compile_default,D3,c1bn,Bg4,emergent difference,unchanged
-8,compile_default,D3,c1bn,seg1,emergent difference,emergent difference
-8,compile_default,D3,c1bn,seg4,emergent difference,emergent difference
-8,compile_default,D3,Bplain,Bg4,emergent difference,emergent difference
-8,compile_default,D3,Bplain,seg1,emergent difference,unchanged
-8,compile_default,D3,Bplain,seg4,emergent difference,emergent difference
-8,compile_default,D3,Bg4,seg1,emergent difference,emergent difference
-8,compile_default,D3,Bg4,seg4,emergent difference,emergent difference
-8,compile_default,D3,seg1,seg4,emergent difference,emergent difference
-8,compile_default,D4,Awide,c1pos,emergent difference,emergent difference
-8,compile_default,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,compile_ro,D1,p2_832,base960,unchanged,unchanged
-8,compile_ro,D1,p2_960,base1120,unchanged,unchanged
-8,compile_ro,D1b,c1pos,base960,unchanged,unchanged
-8,compile_ro,D1b,safew288,base960,unchanged,unchanged
-8,compile_ro,D2,c1pos,y11m,unchanged,emergent difference
-8,compile_ro,D2,c1pos,y11l,strict reversal,strict reversal
-8,compile_ro,D2,safew288,y11m,emergent difference,emergent difference
-8,compile_ro,D2,safew288,y11l,strict reversal,strict reversal
-8,compile_ro,D3,c1pos,c1bn,emergent difference,emergent difference
-8,compile_ro,D3,c1pos,Bplain,unchanged,unchanged
-8,compile_ro,D3,c1pos,Bg4,unchanged,unchanged
-8,compile_ro,D3,c1pos,seg1,unchanged,unchanged
-8,compile_ro,D3,c1pos,seg4,emergent difference,emergent difference
-8,compile_ro,D3,c1bn,Bplain,unchanged,unchanged
-8,compile_ro,D3,c1bn,Bg4,emergent difference,unchanged
-8,compile_ro,D3,c1bn,seg1,emergent difference,emergent difference
-8,compile_ro,D3,c1bn,seg4,emergent difference,emergent difference
-8,compile_ro,D3,Bplain,Bg4,emergent difference,emergent difference
-8,compile_ro,D3,Bplain,seg1,emergent difference,unchanged
-8,compile_ro,D3,Bplain,seg4,emergent difference,emergent difference
-8,compile_ro,D3,Bg4,seg1,emergent difference,emergent difference
-8,compile_ro,D3,Bg4,seg4,emergent difference,emergent difference
-8,compile_ro,D3,seg1,seg4,emergent difference,emergent difference
-8,compile_ro,D4,Awide,c1pos,emergent difference,emergent difference
-8,compile_ro,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,eager,D1,p2_832,base960,unchanged,unchanged
-8,eager,D1,p2_960,base1120,unchanged,unchanged
-8,eager,D1b,c1pos,base960,unchanged,unchanged
-8,eager,D1b,safew288,base960,unchanged,unchanged
-8,eager,D2,c1pos,y11m,unchanged,emergent difference
-8,eager,D2,c1pos,y11l,unchanged,unchanged
-8,eager,D2,safew288,y11m,emergent difference,emergent difference
-8,eager,D2,safew288,y11l,strict reversal,strict reversal
-8,eager,D3,c1pos,c1bn,emergent difference,emergent difference
-8,eager,D3,c1pos,Bplain,unchanged,unchanged
-8,eager,D3,c1pos,Bg4,strict reversal,strict reversal
-8,eager,D3,c1pos,seg1,unchanged,unchanged
-8,eager,D3,c1pos,seg4,emergent difference,emergent difference
-8,eager,D3,c1bn,Bplain,unchanged,unchanged
-8,eager,D3,c1bn,Bg4,emergent difference,strict reversal
-8,eager,D3,c1bn,seg1,emergent difference,emergent difference
-8,eager,D3,c1bn,seg4,emergent difference,emergent difference
-8,eager,D3,Bplain,Bg4,emergent difference,emergent difference
-8,eager,D3,Bplain,seg1,emergent difference,unchanged
-8,eager,D3,Bplain,seg4,emergent difference,emergent difference
-8,eager,D3,Bg4,seg1,emergent difference,emergent difference
-8,eager,D3,Bg4,seg4,emergent difference,emergent difference
-8,eager,D3,seg1,seg4,emergent difference,emergent difference
-8,eager,D4,Awide,c1pos,emergent difference,emergent difference
-8,eager,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,eager_graph,D1,p2_832,base960,unchanged,unchanged
-8,eager_graph,D1,p2_960,base1120,unchanged,unchanged
-8,eager_graph,D1b,c1pos,base960,unchanged,unchanged
-8,eager_graph,D1b,safew288,base960,unchanged,unchanged
-8,eager_graph,D2,c1pos,y11m,unchanged,emergent difference
-8,eager_graph,D2,c1pos,y11l,unchanged,unchanged
-8,eager_graph,D2,safew288,y11m,emergent difference,emergent difference
-8,eager_graph,D2,safew288,y11l,strict reversal,strict reversal
-8,eager_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-8,eager_graph,D3,c1pos,Bplain,unchanged,unchanged
-8,eager_graph,D3,c1pos,Bg4,strict reversal,strict reversal
-8,eager_graph,D3,c1pos,seg1,unchanged,unchanged
-8,eager_graph,D3,c1pos,seg4,emergent difference,emergent difference
-8,eager_graph,D3,c1bn,Bplain,unchanged,unchanged
-8,eager_graph,D3,c1bn,Bg4,emergent difference,strict reversal
-8,eager_graph,D3,c1bn,seg1,emergent difference,emergent difference
-8,eager_graph,D3,c1bn,seg4,emergent difference,emergent difference
-8,eager_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-8,eager_graph,D3,Bplain,seg1,emergent difference,unchanged
-8,eager_graph,D3,Bplain,seg4,emergent difference,emergent difference
-8,eager_graph,D3,Bg4,seg1,emergent difference,emergent difference
-8,eager_graph,D3,Bg4,seg4,emergent difference,emergent difference
-8,eager_graph,D3,seg1,seg4,emergent difference,emergent difference
-8,eager_graph,D4,Awide,c1pos,emergent difference,emergent difference
-8,eager_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,ort_iobinding,D1,p2_832,base960,unchanged,unchanged
-8,ort_iobinding,D1,p2_960,base1120,unchanged,unchanged
-8,ort_iobinding,D1b,c1pos,base960,unchanged,unchanged
-8,ort_iobinding,D1b,safew288,base960,unchanged,unchanged
-8,ort_iobinding,D2,c1pos,y11m,unchanged,emergent difference
-8,ort_iobinding,D2,c1pos,y11l,unchanged,unchanged
-8,ort_iobinding,D2,safew288,y11m,emergent difference,emergent difference
-8,ort_iobinding,D2,safew288,y11l,strict reversal,strict reversal
-8,ort_iobinding,D3,c1pos,c1bn,emergent difference,emergent difference
-8,ort_iobinding,D3,c1pos,Bplain,unchanged,unchanged
-8,ort_iobinding,D3,c1pos,Bg4,strict reversal,strict reversal
-8,ort_iobinding,D3,c1pos,seg1,unchanged,unchanged
-8,ort_iobinding,D3,c1pos,seg4,emergent difference,emergent difference
-8,ort_iobinding,D3,c1bn,Bplain,unchanged,unchanged
-8,ort_iobinding,D3,c1bn,Bg4,emergent difference,strict reversal
-8,ort_iobinding,D3,c1bn,seg1,emergent difference,emergent difference
-8,ort_iobinding,D3,c1bn,seg4,emergent difference,emergent difference
-8,ort_iobinding,D3,Bplain,Bg4,emergent difference,emergent difference
-8,ort_iobinding,D3,Bplain,seg1,emergent difference,unchanged
-8,ort_iobinding,D3,Bplain,seg4,emergent difference,emergent difference
-8,ort_iobinding,D3,Bg4,seg1,emergent difference,emergent difference
-8,ort_iobinding,D3,Bg4,seg4,emergent difference,emergent difference
-8,ort_iobinding,D3,seg1,seg4,emergent difference,emergent difference
-8,ort_iobinding,D4,Awide,c1pos,emergent difference,emergent difference
-8,ort_iobinding,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,ort_with_copies,D1,p2_832,base960,unchanged,unchanged
-8,ort_with_copies,D1,p2_960,base1120,unchanged,unchanged
-8,ort_with_copies,D1b,c1pos,base960,lost advantage,lost advantage
-8,ort_with_copies,D1b,safew288,base960,unchanged,unchanged
-8,ort_with_copies,D2,c1pos,y11m,unchanged,emergent difference
-8,ort_with_copies,D2,c1pos,y11l,unchanged,unchanged
-8,ort_with_copies,D2,safew288,y11m,emergent difference,emergent difference
-8,ort_with_copies,D2,safew288,y11l,strict reversal,strict reversal
-8,ort_with_copies,D3,c1pos,c1bn,emergent difference,emergent difference
-8,ort_with_copies,D3,c1pos,Bplain,unchanged,unchanged
-8,ort_with_copies,D3,c1pos,Bg4,strict reversal,strict reversal
-8,ort_with_copies,D3,c1pos,seg1,unchanged,unchanged
-8,ort_with_copies,D3,c1pos,seg4,emergent difference,emergent difference
-8,ort_with_copies,D3,c1bn,Bplain,unchanged,unchanged
-8,ort_with_copies,D3,c1bn,Bg4,emergent difference,strict reversal
-8,ort_with_copies,D3,c1bn,seg1,emergent difference,emergent difference
-8,ort_with_copies,D3,c1bn,seg4,emergent difference,emergent difference
-8,ort_with_copies,D3,Bplain,Bg4,emergent difference,emergent difference
-8,ort_with_copies,D3,Bplain,seg1,emergent difference,unchanged
-8,ort_with_copies,D3,Bplain,seg4,emergent difference,emergent difference
-8,ort_with_copies,D3,Bg4,seg1,emergent difference,emergent difference
-8,ort_with_copies,D3,Bg4,seg4,emergent difference,emergent difference
-8,ort_with_copies,D3,seg1,seg4,emergent difference,emergent difference
-8,ort_with_copies,D4,Awide,c1pos,unchanged,unchanged
-8,ort_with_copies,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,trt_fp16_graph,D1,p2_832,base960,unchanged,unchanged
-8,trt_fp16_graph,D1,p2_960,base1120,unchanged,unchanged
-8,trt_fp16_graph,D1b,c1pos,base960,unchanged,unchanged
-8,trt_fp16_graph,D1b,safew288,base960,unchanged,unchanged
-8,trt_fp16_graph,D2,c1pos,y11m,unchanged,emergent difference
-8,trt_fp16_graph,D2,c1pos,y11l,unchanged,unchanged
-8,trt_fp16_graph,D2,safew288,y11m,emergent difference,emergent difference
-8,trt_fp16_graph,D2,safew288,y11l,strict reversal,strict reversal
-8,trt_fp16_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-8,trt_fp16_graph,D3,c1pos,Bplain,unchanged,unchanged
-8,trt_fp16_graph,D3,c1pos,Bg4,unchanged,unchanged
-8,trt_fp16_graph,D3,c1pos,seg1,unchanged,unchanged
-8,trt_fp16_graph,D3,c1pos,seg4,emergent difference,emergent difference
-8,trt_fp16_graph,D3,c1bn,Bplain,unchanged,unchanged
-8,trt_fp16_graph,D3,c1bn,Bg4,emergent difference,unchanged
-8,trt_fp16_graph,D3,c1bn,seg1,emergent difference,emergent difference
-8,trt_fp16_graph,D3,c1bn,seg4,emergent difference,emergent difference
-8,trt_fp16_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-8,trt_fp16_graph,D3,Bplain,seg1,emergent difference,unchanged
-8,trt_fp16_graph,D3,Bplain,seg4,emergent difference,emergent difference
-8,trt_fp16_graph,D3,Bg4,seg1,emergent difference,emergent difference
-8,trt_fp16_graph,D3,Bg4,seg4,emergent difference,emergent difference
-8,trt_fp16_graph,D3,seg1,seg4,emergent difference,emergent difference
-8,trt_fp16_graph,D4,Awide,c1pos,emergent difference,emergent difference
-8,trt_fp16_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,trt_fp16_nograph,D1,p2_832,base960,unchanged,unchanged
-8,trt_fp16_nograph,D1,p2_960,base1120,unchanged,unchanged
-8,trt_fp16_nograph,D1b,c1pos,base960,unchanged,unchanged
-8,trt_fp16_nograph,D1b,safew288,base960,unchanged,unchanged
-8,trt_fp16_nograph,D2,c1pos,y11m,unchanged,emergent difference
-8,trt_fp16_nograph,D2,c1pos,y11l,unchanged,unchanged
-8,trt_fp16_nograph,D2,safew288,y11m,emergent difference,emergent difference
-8,trt_fp16_nograph,D2,safew288,y11l,strict reversal,strict reversal
-8,trt_fp16_nograph,D3,c1pos,c1bn,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,c1pos,Bplain,unchanged,unchanged
-8,trt_fp16_nograph,D3,c1pos,Bg4,unchanged,unchanged
-8,trt_fp16_nograph,D3,c1pos,seg1,unchanged,unchanged
-8,trt_fp16_nograph,D3,c1pos,seg4,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,c1bn,Bplain,unchanged,unchanged
-8,trt_fp16_nograph,D3,c1bn,Bg4,emergent difference,unchanged
-8,trt_fp16_nograph,D3,c1bn,seg1,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,c1bn,seg4,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,Bplain,Bg4,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,Bplain,seg1,emergent difference,unchanged
-8,trt_fp16_nograph,D3,Bplain,seg4,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,Bg4,seg1,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,Bg4,seg4,emergent difference,emergent difference
-8,trt_fp16_nograph,D3,seg1,seg4,emergent difference,emergent difference
-8,trt_fp16_nograph,D4,Awide,c1pos,emergent difference,emergent difference
-8,trt_fp16_nograph,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,trt_fp32_graph,D1,p2_832,base960,unchanged,unchanged
-8,trt_fp32_graph,D1,p2_960,base1120,unchanged,unchanged
-8,trt_fp32_graph,D1b,c1pos,base960,unchanged,unchanged
-8,trt_fp32_graph,D1b,safew288,base960,unchanged,unchanged
-8,trt_fp32_graph,D2,c1pos,y11m,unchanged,emergent difference
-8,trt_fp32_graph,D2,c1pos,y11l,unchanged,unchanged
-8,trt_fp32_graph,D2,safew288,y11m,emergent difference,emergent difference
-8,trt_fp32_graph,D2,safew288,y11l,strict reversal,strict reversal
-8,trt_fp32_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-8,trt_fp32_graph,D3,c1pos,Bplain,unchanged,unchanged
-8,trt_fp32_graph,D3,c1pos,Bg4,unchanged,unchanged
-8,trt_fp32_graph,D3,c1pos,seg1,unchanged,unchanged
-8,trt_fp32_graph,D3,c1pos,seg4,emergent difference,emergent difference
-8,trt_fp32_graph,D3,c1bn,Bplain,unchanged,unchanged
-8,trt_fp32_graph,D3,c1bn,Bg4,emergent difference,unchanged
-8,trt_fp32_graph,D3,c1bn,seg1,emergent difference,emergent difference
-8,trt_fp32_graph,D3,c1bn,seg4,emergent difference,emergent difference
-8,trt_fp32_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-8,trt_fp32_graph,D3,Bplain,seg1,emergent difference,unchanged
-8,trt_fp32_graph,D3,Bplain,seg4,emergent difference,emergent difference
-8,trt_fp32_graph,D3,Bg4,seg1,emergent difference,emergent difference
-8,trt_fp32_graph,D3,Bg4,seg4,emergent difference,emergent difference
-8,trt_fp32_graph,D3,seg1,seg4,emergent difference,emergent difference
-8,trt_fp32_graph,D4,Awide,c1pos,emergent difference,emergent difference
-8,trt_fp32_graph,D4,afterA,Bnarrow,unchanged,unchanged
-8,trt_int8a_graph,D1,p2_832,base960,unchanged,unchanged
-8,trt_int8a_graph,D1,p2_960,base1120,unchanged,unchanged
-8,trt_int8a_graph,D1b,c1pos,base960,unchanged,unchanged
-8,trt_int8a_graph,D1b,safew288,base960,unchanged,unchanged
-8,trt_int8a_graph,D2,c1pos,y11m,unchanged,emergent difference
-8,trt_int8a_graph,D2,c1pos,y11l,strict reversal,strict reversal
-8,trt_int8a_graph,D2,safew288,y11m,emergent difference,emergent difference
-8,trt_int8a_graph,D2,safew288,y11l,strict reversal,strict reversal
-8,trt_int8a_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-8,trt_int8a_graph,D3,c1pos,Bplain,unchanged,unchanged
-8,trt_int8a_graph,D3,c1pos,Bg4,unchanged,unchanged
-8,trt_int8a_graph,D3,c1pos,seg1,unchanged,unchanged
-8,trt_int8a_graph,D3,c1pos,seg4,emergent difference,emergent difference
-8,trt_int8a_graph,D3,c1bn,Bplain,unchanged,unchanged
-8,trt_int8a_graph,D3,c1bn,Bg4,emergent difference,unchanged
-8,trt_int8a_graph,D3,c1bn,seg1,emergent difference,emergent difference
-8,trt_int8a_graph,D3,c1bn,seg4,emergent difference,emergent difference
-8,trt_int8a_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-8,trt_int8a_graph,D3,Bplain,seg1,emergent difference,unchanged
-8,trt_int8a_graph,D3,Bplain,seg4,emergent difference,emergent difference
-8,trt_int8a_graph,D3,Bg4,seg1,emergent difference,emergent difference
-8,trt_int8a_graph,D3,Bg4,seg4,emergent difference,emergent difference
-8,trt_int8a_graph,D3,seg1,seg4,emergent difference,emergent difference
-8,trt_int8a_graph,D4,Awide,c1pos,emergent difference,emergent difference
-8,trt_int8a_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-8,trt_int8b_graph,D1,p2_832,base960,unchanged,unchanged
-8,trt_int8b_graph,D1,p2_960,base1120,unchanged,unchanged
-8,trt_int8b_graph,D1b,c1pos,base960,unchanged,unchanged
-8,trt_int8b_graph,D1b,safew288,base960,unchanged,unchanged
-8,trt_int8b_graph,D2,c1pos,y11m,unchanged,emergent difference
-8,trt_int8b_graph,D2,c1pos,y11l,strict reversal,strict reversal
-8,trt_int8b_graph,D2,safew288,y11m,emergent difference,emergent difference
-8,trt_int8b_graph,D2,safew288,y11l,strict reversal,strict reversal
-8,trt_int8b_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-8,trt_int8b_graph,D3,c1pos,Bplain,unchanged,unchanged
-8,trt_int8b_graph,D3,c1pos,Bg4,unchanged,unchanged
-8,trt_int8b_graph,D3,c1pos,seg1,unchanged,unchanged
-8,trt_int8b_graph,D3,c1pos,seg4,emergent difference,emergent difference
-8,trt_int8b_graph,D3,c1bn,Bplain,unchanged,unchanged
-8,trt_int8b_graph,D3,c1bn,Bg4,emergent difference,unchanged
-8,trt_int8b_graph,D3,c1bn,seg1,emergent difference,emergent difference
-8,trt_int8b_graph,D3,c1bn,seg4,emergent difference,emergent difference
-8,trt_int8b_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-8,trt_int8b_graph,D3,Bplain,seg1,emergent difference,unchanged
-8,trt_int8b_graph,D3,Bplain,seg4,emergent difference,emergent difference
-8,trt_int8b_graph,D3,Bg4,seg1,emergent difference,emergent difference
-8,trt_int8b_graph,D3,Bg4,seg4,emergent difference,emergent difference
-8,trt_int8b_graph,D3,seg1,seg4,emergent difference,emergent difference
-8,trt_int8b_graph,D4,Awide,c1pos,emergent difference,emergent difference
-8,trt_int8b_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,compile_default,D1,p2_832,base960,unchanged,unchanged
-32,compile_default,D1,p2_960,base1120,unchanged,unchanged
-32,compile_default,D1b,c1pos,base960,unchanged,unchanged
-32,compile_default,D1b,safew288,base960,unchanged,unchanged
-32,compile_default,D2,c1pos,y11m,unchanged,emergent difference
-32,compile_default,D2,c1pos,y11l,strict reversal,strict reversal
-32,compile_default,D2,safew288,y11m,emergent difference,emergent difference
-32,compile_default,D2,safew288,y11l,strict reversal,strict reversal
-32,compile_default,D3,c1pos,c1bn,emergent difference,emergent difference
-32,compile_default,D3,c1pos,Bplain,unchanged,unchanged
-32,compile_default,D3,c1pos,Bg4,unchanged,unchanged
-32,compile_default,D3,c1pos,seg1,unchanged,unchanged
-32,compile_default,D3,c1pos,seg4,emergent difference,emergent difference
-32,compile_default,D3,c1bn,Bplain,unchanged,unchanged
-32,compile_default,D3,c1bn,Bg4,emergent difference,unchanged
-32,compile_default,D3,c1bn,seg1,emergent difference,emergent difference
-32,compile_default,D3,c1bn,seg4,emergent difference,emergent difference
-32,compile_default,D3,Bplain,Bg4,emergent difference,emergent difference
-32,compile_default,D3,Bplain,seg1,emergent difference,unchanged
-32,compile_default,D3,Bplain,seg4,emergent difference,emergent difference
-32,compile_default,D3,Bg4,seg1,emergent difference,emergent difference
-32,compile_default,D3,Bg4,seg4,emergent difference,emergent difference
-32,compile_default,D3,seg1,seg4,emergent difference,emergent difference
-32,compile_default,D4,Awide,c1pos,emergent difference,emergent difference
-32,compile_default,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,compile_ro,D1,p2_832,base960,unchanged,unchanged
-32,compile_ro,D1,p2_960,base1120,unchanged,unchanged
-32,compile_ro,D1b,c1pos,base960,unchanged,unchanged
-32,compile_ro,D1b,safew288,base960,unchanged,unchanged
-32,compile_ro,D2,c1pos,y11m,unchanged,emergent difference
-32,compile_ro,D2,c1pos,y11l,strict reversal,strict reversal
-32,compile_ro,D2,safew288,y11m,emergent difference,emergent difference
-32,compile_ro,D2,safew288,y11l,strict reversal,strict reversal
-32,compile_ro,D3,c1pos,c1bn,emergent difference,emergent difference
-32,compile_ro,D3,c1pos,Bplain,unchanged,unchanged
-32,compile_ro,D3,c1pos,Bg4,unchanged,unchanged
-32,compile_ro,D3,c1pos,seg1,unchanged,unchanged
-32,compile_ro,D3,c1pos,seg4,emergent difference,emergent difference
-32,compile_ro,D3,c1bn,Bplain,unchanged,unchanged
-32,compile_ro,D3,c1bn,Bg4,emergent difference,unchanged
-32,compile_ro,D3,c1bn,seg1,emergent difference,emergent difference
-32,compile_ro,D3,c1bn,seg4,emergent difference,emergent difference
-32,compile_ro,D3,Bplain,Bg4,emergent difference,emergent difference
-32,compile_ro,D3,Bplain,seg1,emergent difference,unchanged
-32,compile_ro,D3,Bplain,seg4,emergent difference,emergent difference
-32,compile_ro,D3,Bg4,seg1,emergent difference,emergent difference
-32,compile_ro,D3,Bg4,seg4,emergent difference,emergent difference
-32,compile_ro,D3,seg1,seg4,emergent difference,emergent difference
-32,compile_ro,D4,Awide,c1pos,emergent difference,emergent difference
-32,compile_ro,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,eager,D1,p2_832,base960,unchanged,unchanged
-32,eager,D1,p2_960,base1120,unchanged,unchanged
-32,eager,D1b,c1pos,base960,unchanged,unchanged
-32,eager,D1b,safew288,base960,unchanged,unchanged
-32,eager,D2,c1pos,y11m,unchanged,emergent difference
-32,eager,D2,c1pos,y11l,unchanged,unchanged
-32,eager,D2,safew288,y11m,emergent difference,emergent difference
-32,eager,D2,safew288,y11l,lost advantage,lost advantage
-32,eager,D3,c1pos,c1bn,emergent difference,emergent difference
-32,eager,D3,c1pos,Bplain,unchanged,unchanged
-32,eager,D3,c1pos,Bg4,unchanged,unchanged
-32,eager,D3,c1pos,seg1,unchanged,unchanged
-32,eager,D3,c1pos,seg4,emergent difference,emergent difference
-32,eager,D3,c1bn,Bplain,unchanged,unchanged
-32,eager,D3,c1bn,Bg4,emergent difference,unchanged
-32,eager,D3,c1bn,seg1,emergent difference,emergent difference
-32,eager,D3,c1bn,seg4,emergent difference,emergent difference
-32,eager,D3,Bplain,Bg4,emergent difference,emergent difference
-32,eager,D3,Bplain,seg1,emergent difference,unchanged
-32,eager,D3,Bplain,seg4,emergent difference,emergent difference
-32,eager,D3,Bg4,seg1,emergent difference,emergent difference
-32,eager,D3,Bg4,seg4,emergent difference,emergent difference
-32,eager,D3,seg1,seg4,emergent difference,emergent difference
-32,eager,D4,Awide,c1pos,emergent difference,emergent difference
-32,eager,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,eager_graph,D1,p2_832,base960,unchanged,unchanged
-32,eager_graph,D1,p2_960,base1120,unchanged,unchanged
-32,eager_graph,D1b,c1pos,base960,unchanged,unchanged
-32,eager_graph,D1b,safew288,base960,unchanged,unchanged
-32,eager_graph,D2,c1pos,y11m,unchanged,emergent difference
-32,eager_graph,D2,c1pos,y11l,unchanged,unchanged
-32,eager_graph,D2,safew288,y11m,emergent difference,emergent difference
-32,eager_graph,D2,safew288,y11l,strict reversal,strict reversal
-32,eager_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-32,eager_graph,D3,c1pos,Bplain,unchanged,unchanged
-32,eager_graph,D3,c1pos,Bg4,unchanged,unchanged
-32,eager_graph,D3,c1pos,seg1,unchanged,unchanged
-32,eager_graph,D3,c1pos,seg4,emergent difference,emergent difference
-32,eager_graph,D3,c1bn,Bplain,unchanged,unchanged
-32,eager_graph,D3,c1bn,Bg4,emergent difference,unchanged
-32,eager_graph,D3,c1bn,seg1,emergent difference,emergent difference
-32,eager_graph,D3,c1bn,seg4,emergent difference,emergent difference
-32,eager_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-32,eager_graph,D3,Bplain,seg1,emergent difference,unchanged
-32,eager_graph,D3,Bplain,seg4,emergent difference,emergent difference
-32,eager_graph,D3,Bg4,seg1,emergent difference,emergent difference
-32,eager_graph,D3,Bg4,seg4,emergent difference,emergent difference
-32,eager_graph,D3,seg1,seg4,emergent difference,emergent difference
-32,eager_graph,D4,Awide,c1pos,emergent difference,emergent difference
-32,eager_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,ort_iobinding,D1,p2_832,base960,unchanged,unchanged
-32,ort_iobinding,D1,p2_960,base1120,unchanged,unchanged
-32,ort_iobinding,D1b,c1pos,base960,unchanged,unchanged
-32,ort_iobinding,D1b,safew288,base960,unchanged,unchanged
-32,ort_iobinding,D2,c1pos,y11m,unchanged,emergent difference
-32,ort_iobinding,D2,c1pos,y11l,unchanged,unchanged
-32,ort_iobinding,D2,safew288,y11m,emergent difference,emergent difference
-32,ort_iobinding,D2,safew288,y11l,strict reversal,strict reversal
-32,ort_iobinding,D3,c1pos,c1bn,emergent difference,emergent difference
-32,ort_iobinding,D3,c1pos,Bplain,unchanged,unchanged
-32,ort_iobinding,D3,c1pos,Bg4,unchanged,unchanged
-32,ort_iobinding,D3,c1pos,seg1,unchanged,unchanged
-32,ort_iobinding,D3,c1pos,seg4,emergent difference,emergent difference
-32,ort_iobinding,D3,c1bn,Bplain,unchanged,unchanged
-32,ort_iobinding,D3,c1bn,Bg4,emergent difference,unchanged
-32,ort_iobinding,D3,c1bn,seg1,emergent difference,emergent difference
-32,ort_iobinding,D3,c1bn,seg4,emergent difference,emergent difference
-32,ort_iobinding,D3,Bplain,Bg4,emergent difference,emergent difference
-32,ort_iobinding,D3,Bplain,seg1,emergent difference,unchanged
-32,ort_iobinding,D3,Bplain,seg4,emergent difference,emergent difference
-32,ort_iobinding,D3,Bg4,seg1,emergent difference,emergent difference
-32,ort_iobinding,D3,Bg4,seg4,emergent difference,emergent difference
-32,ort_iobinding,D3,seg1,seg4,emergent difference,emergent difference
-32,ort_iobinding,D4,Awide,c1pos,emergent difference,emergent difference
-32,ort_iobinding,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,ort_with_copies,D1,p2_832,base960,unchanged,unchanged
-32,ort_with_copies,D1,p2_960,base1120,unchanged,unchanged
-32,ort_with_copies,D1b,c1pos,base960,lost advantage,lost advantage
-32,ort_with_copies,D1b,safew288,base960,unchanged,unchanged
-32,ort_with_copies,D2,c1pos,y11m,unchanged,emergent difference
-32,ort_with_copies,D2,c1pos,y11l,unchanged,unchanged
-32,ort_with_copies,D2,safew288,y11m,emergent difference,emergent difference
-32,ort_with_copies,D2,safew288,y11l,strict reversal,strict reversal
-32,ort_with_copies,D3,c1pos,c1bn,emergent difference,emergent difference
-32,ort_with_copies,D3,c1pos,Bplain,unchanged,unchanged
-32,ort_with_copies,D3,c1pos,Bg4,unchanged,unchanged
-32,ort_with_copies,D3,c1pos,seg1,unchanged,unchanged
-32,ort_with_copies,D3,c1pos,seg4,emergent difference,emergent difference
-32,ort_with_copies,D3,c1bn,Bplain,unchanged,unchanged
-32,ort_with_copies,D3,c1bn,Bg4,emergent difference,unchanged
-32,ort_with_copies,D3,c1bn,seg1,emergent difference,emergent difference
-32,ort_with_copies,D3,c1bn,seg4,emergent difference,emergent difference
-32,ort_with_copies,D3,Bplain,Bg4,emergent difference,emergent difference
-32,ort_with_copies,D3,Bplain,seg1,emergent difference,unchanged
-32,ort_with_copies,D3,Bplain,seg4,emergent difference,emergent difference
-32,ort_with_copies,D3,Bg4,seg1,emergent difference,emergent difference
-32,ort_with_copies,D3,Bg4,seg4,emergent difference,emergent difference
-32,ort_with_copies,D3,seg1,seg4,emergent difference,emergent difference
-32,ort_with_copies,D4,Awide,c1pos,unchanged,unchanged
-32,ort_with_copies,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,trt_fp16_graph,D1,p2_832,base960,unchanged,unchanged
-32,trt_fp16_graph,D1,p2_960,base1120,unchanged,unchanged
-32,trt_fp16_graph,D1b,c1pos,base960,unchanged,unchanged
-32,trt_fp16_graph,D1b,safew288,base960,unchanged,unchanged
-32,trt_fp16_graph,D2,c1pos,y11m,unchanged,emergent difference
-32,trt_fp16_graph,D2,c1pos,y11l,strict reversal,strict reversal
-32,trt_fp16_graph,D2,safew288,y11m,emergent difference,emergent difference
-32,trt_fp16_graph,D2,safew288,y11l,strict reversal,strict reversal
-32,trt_fp16_graph,D3,c1pos,c1bn,unchanged,unchanged
-32,trt_fp16_graph,D3,c1pos,Bplain,unchanged,unchanged
-32,trt_fp16_graph,D3,c1pos,Bg4,unchanged,unchanged
-32,trt_fp16_graph,D3,c1pos,seg1,unchanged,unchanged
-32,trt_fp16_graph,D3,c1pos,seg4,emergent difference,emergent difference
-32,trt_fp16_graph,D3,c1bn,Bplain,unchanged,unchanged
-32,trt_fp16_graph,D3,c1bn,Bg4,emergent difference,unchanged
-32,trt_fp16_graph,D3,c1bn,seg1,emergent difference,emergent difference
-32,trt_fp16_graph,D3,c1bn,seg4,emergent difference,emergent difference
-32,trt_fp16_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-32,trt_fp16_graph,D3,Bplain,seg1,emergent difference,unchanged
-32,trt_fp16_graph,D3,Bplain,seg4,emergent difference,emergent difference
-32,trt_fp16_graph,D3,Bg4,seg1,emergent difference,emergent difference
-32,trt_fp16_graph,D3,Bg4,seg4,emergent difference,emergent difference
-32,trt_fp16_graph,D3,seg1,seg4,emergent difference,emergent difference
-32,trt_fp16_graph,D4,Awide,c1pos,emergent difference,emergent difference
-32,trt_fp16_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,trt_fp16_nograph,D1,p2_832,base960,unchanged,unchanged
-32,trt_fp16_nograph,D1,p2_960,base1120,unchanged,unchanged
-32,trt_fp16_nograph,D1b,c1pos,base960,unchanged,unchanged
-32,trt_fp16_nograph,D1b,safew288,base960,unchanged,unchanged
-32,trt_fp16_nograph,D2,c1pos,y11m,unchanged,emergent difference
-32,trt_fp16_nograph,D2,c1pos,y11l,strict reversal,strict reversal
-32,trt_fp16_nograph,D2,safew288,y11m,emergent difference,emergent difference
-32,trt_fp16_nograph,D2,safew288,y11l,strict reversal,strict reversal
-32,trt_fp16_nograph,D3,c1pos,c1bn,unchanged,unchanged
-32,trt_fp16_nograph,D3,c1pos,Bplain,unchanged,unchanged
-32,trt_fp16_nograph,D3,c1pos,Bg4,unchanged,unchanged
-32,trt_fp16_nograph,D3,c1pos,seg1,unchanged,unchanged
-32,trt_fp16_nograph,D3,c1pos,seg4,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,c1bn,Bplain,unchanged,unchanged
-32,trt_fp16_nograph,D3,c1bn,Bg4,emergent difference,unchanged
-32,trt_fp16_nograph,D3,c1bn,seg1,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,c1bn,seg4,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,Bplain,Bg4,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,Bplain,seg1,emergent difference,unchanged
-32,trt_fp16_nograph,D3,Bplain,seg4,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,Bg4,seg1,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,Bg4,seg4,emergent difference,emergent difference
-32,trt_fp16_nograph,D3,seg1,seg4,emergent difference,emergent difference
-32,trt_fp16_nograph,D4,Awide,c1pos,emergent difference,emergent difference
-32,trt_fp16_nograph,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,trt_fp32_graph,D1,p2_832,base960,unchanged,unchanged
-32,trt_fp32_graph,D1,p2_960,base1120,unchanged,unchanged
-32,trt_fp32_graph,D1b,c1pos,base960,unchanged,unchanged
-32,trt_fp32_graph,D1b,safew288,base960,unchanged,unchanged
-32,trt_fp32_graph,D2,c1pos,y11m,unchanged,emergent difference
-32,trt_fp32_graph,D2,c1pos,y11l,unchanged,unchanged
-32,trt_fp32_graph,D2,safew288,y11m,emergent difference,emergent difference
-32,trt_fp32_graph,D2,safew288,y11l,strict reversal,strict reversal
-32,trt_fp32_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-32,trt_fp32_graph,D3,c1pos,Bplain,unchanged,unchanged
-32,trt_fp32_graph,D3,c1pos,Bg4,unchanged,unchanged
-32,trt_fp32_graph,D3,c1pos,seg1,unchanged,unchanged
-32,trt_fp32_graph,D3,c1pos,seg4,emergent difference,emergent difference
-32,trt_fp32_graph,D3,c1bn,Bplain,unchanged,unchanged
-32,trt_fp32_graph,D3,c1bn,Bg4,emergent difference,unchanged
-32,trt_fp32_graph,D3,c1bn,seg1,emergent difference,emergent difference
-32,trt_fp32_graph,D3,c1bn,seg4,emergent difference,emergent difference
-32,trt_fp32_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-32,trt_fp32_graph,D3,Bplain,seg1,emergent difference,unchanged
-32,trt_fp32_graph,D3,Bplain,seg4,emergent difference,emergent difference
-32,trt_fp32_graph,D3,Bg4,seg1,emergent difference,emergent difference
-32,trt_fp32_graph,D3,Bg4,seg4,emergent difference,emergent difference
-32,trt_fp32_graph,D3,seg1,seg4,emergent difference,emergent difference
-32,trt_fp32_graph,D4,Awide,c1pos,emergent difference,emergent difference
-32,trt_fp32_graph,D4,afterA,Bnarrow,unchanged,unchanged
-32,trt_int8a_graph,D1,p2_832,base960,unchanged,unchanged
-32,trt_int8a_graph,D1,p2_960,base1120,unchanged,unchanged
-32,trt_int8a_graph,D1b,c1pos,base960,unchanged,unchanged
-32,trt_int8a_graph,D1b,safew288,base960,unchanged,unchanged
-32,trt_int8a_graph,D2,c1pos,y11m,unchanged,emergent difference
-32,trt_int8a_graph,D2,c1pos,y11l,strict reversal,strict reversal
-32,trt_int8a_graph,D2,safew288,y11m,emergent difference,emergent difference
-32,trt_int8a_graph,D2,safew288,y11l,strict reversal,strict reversal
-32,trt_int8a_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-32,trt_int8a_graph,D3,c1pos,Bplain,unchanged,unchanged
-32,trt_int8a_graph,D3,c1pos,Bg4,unchanged,unchanged
-32,trt_int8a_graph,D3,c1pos,seg1,unchanged,unchanged
-32,trt_int8a_graph,D3,c1pos,seg4,emergent difference,emergent difference
-32,trt_int8a_graph,D3,c1bn,Bplain,unchanged,unchanged
-32,trt_int8a_graph,D3,c1bn,Bg4,emergent difference,unchanged
-32,trt_int8a_graph,D3,c1bn,seg1,emergent difference,emergent difference
-32,trt_int8a_graph,D3,c1bn,seg4,emergent difference,emergent difference
-32,trt_int8a_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-32,trt_int8a_graph,D3,Bplain,seg1,emergent difference,unchanged
-32,trt_int8a_graph,D3,Bplain,seg4,emergent difference,emergent difference
-32,trt_int8a_graph,D3,Bg4,seg1,emergent difference,emergent difference
-32,trt_int8a_graph,D3,Bg4,seg4,emergent difference,emergent difference
-32,trt_int8a_graph,D3,seg1,seg4,emergent difference,emergent difference
-32,trt_int8a_graph,D4,Awide,c1pos,emergent difference,emergent difference
-32,trt_int8a_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
-32,trt_int8b_graph,D1,p2_832,base960,unchanged,unchanged
-32,trt_int8b_graph,D1,p2_960,base1120,unchanged,unchanged
-32,trt_int8b_graph,D1b,c1pos,base960,unchanged,unchanged
-32,trt_int8b_graph,D1b,safew288,base960,unchanged,unchanged
-32,trt_int8b_graph,D2,c1pos,y11m,unchanged,emergent difference
-32,trt_int8b_graph,D2,c1pos,y11l,strict reversal,strict reversal
-32,trt_int8b_graph,D2,safew288,y11m,emergent difference,emergent difference
-32,trt_int8b_graph,D2,safew288,y11l,strict reversal,strict reversal
-32,trt_int8b_graph,D3,c1pos,c1bn,emergent difference,emergent difference
-32,trt_int8b_graph,D3,c1pos,Bplain,unchanged,unchanged
-32,trt_int8b_graph,D3,c1pos,Bg4,unchanged,unchanged
-32,trt_int8b_graph,D3,c1pos,seg1,unchanged,unchanged
-32,trt_int8b_graph,D3,c1pos,seg4,emergent difference,emergent difference
-32,trt_int8b_graph,D3,c1bn,Bplain,unchanged,unchanged
-32,trt_int8b_graph,D3,c1bn,Bg4,emergent difference,unchanged
-32,trt_int8b_graph,D3,c1bn,seg1,emergent difference,emergent difference
-32,trt_int8b_graph,D3,c1bn,seg4,emergent difference,emergent difference
-32,trt_int8b_graph,D3,Bplain,Bg4,emergent difference,emergent difference
-32,trt_int8b_graph,D3,Bplain,seg1,emergent difference,unchanged
-32,trt_int8b_graph,D3,Bplain,seg4,emergent difference,emergent difference
-32,trt_int8b_graph,D3,Bg4,seg1,emergent difference,emergent difference
-32,trt_int8b_graph,D3,Bg4,seg4,emergent difference,emergent difference
-32,trt_int8b_graph,D3,seg1,seg4,emergent difference,emergent difference
-32,trt_int8b_graph,D4,Awide,c1pos,emergent difference,emergent difference
-32,trt_int8b_graph,D4,afterA,Bnarrow,emergent difference,emergent difference
+batch,runtime,family,x,y,category,cat_norm_ref,cat_norm_all
+1,compile_default,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,compile_default,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,compile_default,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,compile_default,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,compile_default,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+1,compile_default,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,compile_default,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,compile_default,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,compile_default,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,compile_default,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,compile_default,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,compile_default,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,compile_default,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,compile_default,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,compile_default,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,compile_default,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+1,compile_default,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,compile_default,D3,Bplain,Bg4,unchanged,unchanged,unchanged
+1,compile_default,D3,Bplain,seg1,unchanged,lost advantage,unchanged
+1,compile_default,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+1,compile_default,D3,Bg4,seg1,unchanged,unchanged,emergent difference
+1,compile_default,D3,Bg4,seg4,unchanged,unchanged,emergent difference
+1,compile_default,D3,seg1,seg4,unchanged,unchanged,unchanged
+1,compile_default,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,compile_default,D4,afterA,Bnarrow,unchanged,unchanged,unchanged
+1,compile_ro,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,compile_ro,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,compile_ro,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,compile_ro,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,compile_ro,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+1,compile_ro,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,compile_ro,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,compile_ro,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+1,compile_ro,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,compile_ro,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,compile_ro,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,compile_ro,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,compile_ro,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,compile_ro,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,compile_ro,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,compile_ro,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,compile_ro,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,compile_ro,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,compile_ro,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+1,eager_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,eager_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,eager_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,eager_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,eager_graph,D2,c1pos,y11m,strict reversal,emergent difference,emergent difference
+1,eager_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,eager_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,eager_graph,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,eager_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,eager_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,eager_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,eager_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,eager_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,eager_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,eager_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,eager_graph,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,eager_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,eager_graph,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,eager_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,ort_iobinding,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,ort_iobinding,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,ort_iobinding,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,ort_iobinding,D2,c1pos,y11m,lost advantage,unchanged,unchanged
+1,ort_iobinding,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,ort_iobinding,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,ort_iobinding,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,ort_iobinding,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,ort_iobinding,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,ort_iobinding,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,ort_iobinding,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,ort_iobinding,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,ort_iobinding,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,ort_iobinding,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,ort_iobinding,D4,afterA,Bnarrow,unchanged,unchanged,unchanged
+1,ort_with_copies,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,ort_with_copies,D1,p2_960,base1120,lost advantage,lost advantage,lost advantage
+1,ort_with_copies,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,ort_with_copies,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,ort_with_copies,D2,c1pos,y11m,lost advantage,unchanged,unchanged
+1,ort_with_copies,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,ort_with_copies,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,ort_with_copies,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,ort_with_copies,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,ort_with_copies,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,ort_with_copies,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,ort_with_copies,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,ort_with_copies,D3,c1bn,seg1,unchanged,unchanged,emergent difference
+1,ort_with_copies,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+1,ort_with_copies,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D3,Bg4,seg4,unchanged,unchanged,emergent difference
+1,ort_with_copies,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,ort_with_copies,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,ort_with_copies,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+1,trt_fp16_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D3,c1bn,Bplain,lost advantage,lost advantage,lost advantage
+1,trt_fp16_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,trt_fp16_graph,D3,c1bn,seg1,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,trt_fp16_graph,D3,Bplain,seg4,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_graph,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,trt_fp16_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+1,trt_fp16_nograph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1bn,seg1,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,trt_fp16_nograph,D3,Bplain,seg4,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp16_nograph,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,trt_fp16_nograph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D1,p2_960,base1120,lost advantage,lost advantage,lost advantage
+1,trt_fp32_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D2,c1pos,y11m,strict reversal,emergent difference,emergent difference
+1,trt_fp32_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,trt_fp32_graph,D3,c1bn,seg1,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+1,trt_fp32_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,trt_fp32_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+1,trt_fp32_graph,D4,afterA,Bnarrow,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+1,trt_int8a_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,trt_int8a_graph,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+1,trt_int8a_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,trt_int8a_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,trt_int8a_graph,D3,c1bn,seg1,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,trt_int8a_graph,D3,Bplain,Bg4,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,trt_int8a_graph,D3,Bplain,seg4,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,Bg4,seg1,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D3,seg1,seg4,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,trt_int8a_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+1,trt_int8b_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+1,trt_int8b_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+1,trt_int8b_graph,D2,safew288,y11l,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1pos,c1bn,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+1,trt_int8b_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+1,trt_int8b_graph,D3,c1bn,seg1,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+1,trt_int8b_graph,D3,Bplain,Bg4,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,Bplain,seg1,unchanged,lost advantage,lost advantage
+1,trt_int8b_graph,D3,Bplain,seg4,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+1,trt_int8b_graph,D3,Bg4,seg4,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D3,seg1,seg4,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D4,Awide,c1pos,unchanged,unchanged,unchanged
+1,trt_int8b_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,compile_default,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,compile_default,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,compile_default,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,compile_default,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,compile_default,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,compile_default,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+8,compile_default,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,compile_default,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,compile_default,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,compile_default,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,compile_default,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,compile_default,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,compile_default,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,compile_default,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,compile_default,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,compile_default,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,compile_default,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,compile_default,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,compile_ro,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,compile_ro,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,compile_ro,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,compile_ro,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,compile_ro,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,compile_ro,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+8,compile_ro,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,compile_ro,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,compile_ro,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,compile_ro,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,compile_ro,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,compile_ro,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,compile_ro,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,compile_ro,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,compile_ro,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,compile_ro,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,compile_ro,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,compile_ro,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,eager,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,eager,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,eager,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,eager,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,eager,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,eager,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,eager,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,eager,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,eager,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,eager,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,eager,D3,c1pos,Bg4,strict reversal,strict reversal,strict reversal
+8,eager,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,eager,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,eager,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,eager,D3,c1bn,Bg4,emergent difference,strict reversal,strict reversal
+8,eager,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,eager,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,eager,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,eager,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,eager,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,eager,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,eager,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,eager,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,eager,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,eager,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,eager_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,eager_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,eager_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,eager_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,eager_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,eager_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,eager_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,eager_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,eager_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,eager_graph,D3,c1pos,Bg4,strict reversal,strict reversal,strict reversal
+8,eager_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,eager_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,eager_graph,D3,c1bn,Bg4,emergent difference,strict reversal,strict reversal
+8,eager_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,eager_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,eager_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,eager_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,eager_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,ort_iobinding,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,ort_iobinding,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,ort_iobinding,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,ort_iobinding,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,ort_iobinding,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,ort_iobinding,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,ort_iobinding,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,ort_iobinding,D3,c1pos,Bg4,strict reversal,strict reversal,strict reversal
+8,ort_iobinding,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,ort_iobinding,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,ort_iobinding,D3,c1bn,Bg4,emergent difference,strict reversal,strict reversal
+8,ort_iobinding,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,ort_iobinding,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,ort_iobinding,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,ort_with_copies,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,ort_with_copies,D1b,c1pos,base960,lost advantage,lost advantage,lost advantage
+8,ort_with_copies,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,ort_with_copies,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,ort_with_copies,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,ort_with_copies,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,ort_with_copies,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,ort_with_copies,D3,c1pos,Bg4,strict reversal,strict reversal,strict reversal
+8,ort_with_copies,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,ort_with_copies,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,ort_with_copies,D3,c1bn,Bg4,emergent difference,strict reversal,strict reversal
+8,ort_with_copies,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,ort_with_copies,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,ort_with_copies,D4,Awide,c1pos,unchanged,unchanged,unchanged
+8,ort_with_copies,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,trt_fp16_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,trt_fp16_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,trt_fp16_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,trt_fp16_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,trt_fp16_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,trt_fp16_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,trt_fp16_nograph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,trt_fp16_nograph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,trt_fp16_nograph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,trt_fp16_nograph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,trt_fp16_nograph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,trt_fp16_nograph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,trt_fp32_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,trt_fp32_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,trt_fp32_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,trt_fp32_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,trt_fp32_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,trt_fp32_graph,D4,afterA,Bnarrow,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,trt_int8a_graph,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+8,trt_int8a_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,trt_int8a_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,trt_int8a_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,trt_int8a_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,trt_int8a_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,trt_int8a_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+8,trt_int8b_graph,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+8,trt_int8b_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+8,trt_int8b_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+8,trt_int8b_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+8,trt_int8b_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+8,trt_int8b_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+8,trt_int8b_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,compile_default,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,compile_default,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,compile_default,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,compile_default,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,compile_default,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,compile_default,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+32,compile_default,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,compile_default,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,compile_default,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,compile_default,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,compile_default,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,compile_default,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,compile_default,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,compile_default,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,compile_default,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,compile_default,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,compile_default,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,compile_default,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,compile_ro,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,compile_ro,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,compile_ro,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,compile_ro,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,compile_ro,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,compile_ro,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+32,compile_ro,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,compile_ro,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,compile_ro,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,compile_ro,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,compile_ro,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,compile_ro,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,compile_ro,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,compile_ro,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,compile_ro,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,compile_ro,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,compile_ro,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,compile_ro,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,eager,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,eager,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,eager,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,eager,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,eager,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,eager,D2,c1pos,y11l,unchanged,unchanged,unchanged
+32,eager,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,eager,D2,safew288,y11l,lost advantage,lost advantage,lost advantage
+32,eager,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,eager,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,eager,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,eager,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,eager,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,eager,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,eager,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,eager,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,eager,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,eager,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,eager,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,eager,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,eager,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,eager,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,eager,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,eager,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,eager,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,eager_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,eager_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,eager_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,eager_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,eager_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,eager_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+32,eager_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,eager_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,eager_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,eager_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,eager_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,eager_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,eager_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,eager_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,eager_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,eager_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,eager_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,eager_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,ort_iobinding,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,ort_iobinding,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,ort_iobinding,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,ort_iobinding,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,ort_iobinding,D2,c1pos,y11l,unchanged,unchanged,unchanged
+32,ort_iobinding,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,ort_iobinding,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,ort_iobinding,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,ort_iobinding,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,ort_iobinding,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,ort_iobinding,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,ort_iobinding,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,ort_iobinding,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,ort_iobinding,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,ort_with_copies,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,ort_with_copies,D1b,c1pos,base960,lost advantage,lost advantage,lost advantage
+32,ort_with_copies,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,ort_with_copies,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,ort_with_copies,D2,c1pos,y11l,unchanged,unchanged,unchanged
+32,ort_with_copies,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,ort_with_copies,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,ort_with_copies,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,ort_with_copies,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,ort_with_copies,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,ort_with_copies,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,ort_with_copies,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,ort_with_copies,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,ort_with_copies,D4,Awide,c1pos,unchanged,unchanged,unchanged
+32,ort_with_copies,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,trt_fp16_graph,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+32,trt_fp16_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,trt_fp16_graph,D3,c1pos,c1bn,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,trt_fp16_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,trt_fp16_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,trt_fp16_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,trt_fp16_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,trt_fp16_nograph,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+32,trt_fp16_nograph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,trt_fp16_nograph,D3,c1pos,c1bn,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,trt_fp16_nograph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,trt_fp16_nograph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,trt_fp16_nograph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,trt_fp16_nograph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,trt_fp32_graph,D2,c1pos,y11l,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,trt_fp32_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,trt_fp32_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,trt_fp32_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,trt_fp32_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,trt_fp32_graph,D4,afterA,Bnarrow,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,trt_int8a_graph,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+32,trt_int8a_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,trt_int8a_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,trt_int8a_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,trt_int8a_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,trt_int8a_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,trt_int8a_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D1,p2_832,base960,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D1,p2_960,base1120,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D1b,c1pos,base960,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D1b,safew288,base960,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D2,c1pos,y11m,unchanged,emergent difference,emergent difference
+32,trt_int8b_graph,D2,c1pos,y11l,strict reversal,strict reversal,strict reversal
+32,trt_int8b_graph,D2,safew288,y11m,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D2,safew288,y11l,strict reversal,strict reversal,strict reversal
+32,trt_int8b_graph,D3,c1pos,c1bn,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,c1pos,Bplain,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D3,c1pos,Bg4,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D3,c1pos,seg1,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D3,c1pos,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,c1bn,Bplain,unchanged,unchanged,unchanged
+32,trt_int8b_graph,D3,c1bn,Bg4,emergent difference,unchanged,unchanged
+32,trt_int8b_graph,D3,c1bn,seg1,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,c1bn,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,Bplain,Bg4,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,Bplain,seg1,emergent difference,unchanged,unchanged
+32,trt_int8b_graph,D3,Bplain,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,Bg4,seg1,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,Bg4,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D3,seg1,seg4,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D4,Awide,c1pos,emergent difference,emergent difference,emergent difference
+32,trt_int8b_graph,D4,afterA,Bnarrow,emergent difference,emergent difference,emergent difference
