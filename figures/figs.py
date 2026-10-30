@@ -133,7 +133,7 @@ def fig3():
         fr = sorted([p for p in pts if p[0] in front], key=lambda p: p[1])
         ax.plot([p[1] for p in fr], [p[4] for p in fr], color=BLUE, lw=0.9, zorder=0)
         OFF = {"c1pos": (14, 14, "left"), "y11m": (14, -14, "left"), "y11l": (-14, 14, "right"), "Bplain": (-6, 5, "right"),
-               "Bg4": (5, -3, "left"), "base960": (5, -5, "left"), "base1120": (5, 5, "left")}
+               "Bg4": (-5, 4, "right"), "base960": (5, -5, "left"), "base1120": (5, 5, "left")}
         OFFP = [{"c1pos": (24, -10, "left"), "y11m": (30, -24, "left"), "y11l": (-4, 9, "right")},   # per panel: no crossing leaders
                 {"c1pos": (22, -12, "left"), "y11m": (30, -26, "left"), "y11l": (-2, 9, "right")},
                 {"c1pos": (16, -8, "left"), "y11m": (24, -24, "left"), "y11l": (14, 10, "left")}][k_ax]
